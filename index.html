@@ -1,26 +1,9 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
-<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Mohamed Fouad | Marketing Director</title>
-<link rel="canonical" href="https://mohamedfouad.com/">
-<meta property="og:title" content="Mohamed Fouad | Marketing Director">
-<meta property="og:image" content="https://mohamedfouad.com/assets/img/c4525e55ad.jpg">
-<meta name="description" content="Marketing leader scaling brands across the US, Gulf, and MENA. Growth, brand, and e-commerce strategy for ambitious teams." />
-
-<link rel="icon" type="image/png" href="assets/img/90b957496c.png">
-<link rel="apple-touch-icon" href="assets/img/90b957496c.png">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://framerusercontent.com" crossorigin>
-<link rel="preconnect" href="https://video.wixstatic.com" crossorigin>
-<link rel="preconnect" href="https://flagcdn.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
+<meta name="description" content="Marketing Director building the systems under the campaigns: lead-to-cash engines, storefronts, AI intake. US, Gulf and MENA.">
+<link rel="canonical" href="https://mohamedfouad.com/"><link rel="icon" type="image/png" href="assets/img/90b957496c.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Hanken+Grotesk:wght@400;500;600&family=Geist+Mono:wght@400&display=swap" rel="stylesheet">
 <style>
 /* ============================================================
    01 — RESET + TOKENS
@@ -1549,280 +1532,262 @@ html.is-embedded .toast{position:absolute}
 .lead2__who span{font-size:13px;color:var(--gray-1)}
 .quote__avatar{width:44px;height:44px}
 @media (max-width:760px){.lead2{grid-template-columns:1fr}}
-</style>
-</head>
+/* ===== journey (3D intro) ===== */
+.j{position:relative;height:640vh;background:#000;color:#fff}
+.j__stick{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden}
+.j__stage{position:absolute;inset:0}
+.j__stage canvas{display:block}
+.j__vig{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 80% 70% at 50% 50%,transparent 55%,rgba(0,0,0,.75) 100%)}
+.j__intro{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 24px;pointer-events:none;transition:opacity .5s;z-index:4}
+.j__intro h1{font-size:clamp(44px,8vw,120px);font-weight:700;letter-spacing:-.045em;line-height:.92;max-width:12ch;color:#fff;text-shadow:0 30px 80px rgba(0,0,0,.8)}
+.j__intro p{margin-top:18px;font-size:clamp(15px,1.5vw,20px);color:rgba(255,255,255,.65);max-width:40ch;line-height:1.45}
+.j__intro a{pointer-events:auto;margin-top:26px;padding:14px 24px;border-radius:999px;background:#fff;color:#000;font-weight:500;text-decoration:none;font-size:16px}
+.j__cap{position:absolute;left:clamp(18px,3.5vw,44px);bottom:96px;z-index:5;max-width:min(92vw,520px);opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s;pointer-events:none}
+.j__cap.on{opacity:1;transform:none;pointer-events:auto}
+.j__cap .k{font-size:14px;color:rgba(255,255,255,.65);margin-bottom:10px}
+.j__cap .r{font-size:clamp(40px,6vw,88px);font-weight:700;letter-spacing:-.045em;line-height:.95;color:#fff}
+.j__cap .r small{display:block;font-size:clamp(15px,1.4vw,19px);font-weight:400;letter-spacing:-.01em;color:rgba(255,255,255,.65);margin-top:10px}
+.j__cap p{margin-top:14px;font-size:15px;line-height:1.45;color:rgba(255,255,255,.78);max-width:46ch}
+.j__nav{display:flex;gap:10px;margin-top:18px;flex-wrap:wrap}
+.j__nav a,.j__nav button{display:inline-flex;align-items:center;gap:8px;padding:11px 16px;border-radius:999px;border:1px solid rgba(255,255,255,.25);font-size:14px;font-weight:500;color:#fff;text-decoration:none;background:rgba(0,0,0,.35);cursor:pointer}
+.j__nav .pri{background:#fff;color:#000;border-color:#fff}
+.j__bar{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);z-index:6;display:flex;align-items:center;gap:6px;padding:6px;border-radius:999px;background:rgba(10,10,14,.72);border:1px solid rgba(255,255,255,.12);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+.j__bar a{padding:10px 16px;border-radius:999px;font-size:13.5px;font-weight:500;color:rgba(255,255,255,.6);text-decoration:none;transition:color .3s,background .3s;white-space:nowrap}
+.j__bar a:hover{color:#fff}.j__bar a.on{color:#000;background:#fff}.j__bar a.done{color:#fff}
+.j__bar .sep{width:14px;height:1px;background:rgba(255,255,255,.2)}
+.j__tour{position:absolute;left:clamp(18px,3.5vw,44px);top:84px;z-index:5;font-size:12.5px;color:rgba(255,255,255,.55);opacity:0;transition:opacity .4s}
+.j__tour.on{opacity:1}
+.j__fh{position:absolute;top:84px;left:50%;transform:translateX(-50%);z-index:5;font-size:13px;color:rgba(255,255,255,.7);background:rgba(0,0,0,.5);padding:8px 14px;border-radius:999px;opacity:0;transition:opacity .3s;pointer-events:none}
+.j__fh.on{opacity:1}
+.j__end{position:absolute;inset:0;z-index:4;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 24px;opacity:0;pointer-events:none;transition:opacity .6s}
+.j__end.on{opacity:1;pointer-events:auto}
+.j__end h2{font-size:clamp(36px,6vw,92px);font-weight:700;letter-spacing:-.045em;line-height:.95;max-width:14ch;color:#fff}
+.j__end p{margin-top:16px;color:rgba(255,255,255,.65);max-width:40ch;line-height:1.45}
+.j__end .row{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap;justify-content:center}
+.j__end a,.j__end button{display:inline-block;padding:15px 24px;border-radius:999px;font-weight:500;text-decoration:none;font-size:16px;cursor:pointer}
+.j__end .pri{background:#fff;color:#000}.j__end .sec{color:#fff;border:1px solid rgba(255,255,255,.3)}
+@media (max-width:700px){.j__bar{left:10px;right:10px;transform:none;justify-content:space-between;padding:5px}.j__bar a{padding:9px 10px;font-size:12px}.j__bar .sep{display:none}.j__cap{bottom:84px}.j{height:560vh}}
+@media (prefers-reduced-motion:reduce){.j{height:auto}.j__stick{position:relative}}
+
+
+:root{color-scheme:dark;--k:#1A1A18;--k2:#232321;--off:#EDE9E0;--mute:rgba(237,233,224,.55);--line:rgba(237,233,224,.14);--sig:#FF4D00;
+ --bg:var(--k);--bg-alt:#232321;--bg-dark:#111;--bg-dark-2:#1C1C1C;--ink:var(--off);--ink-2:rgba(237,233,224,.85);--gray-1:rgba(237,233,224,.6);--gray-2:rgba(237,233,224,.45);--gray-3:rgba(237,233,224,.35);--line-soft:rgba(237,233,224,.1);--accent:#FF4D00;--accent-hover:#D94100;--accent-on-dark:#FF7A40;--on-dark:#fff;--radius-sm:0;--radius:0;--radius-lg:0;--radius-xl:0;
+ --serif:"Fraunces",Georgia,serif;--grot:"Hanken Grotesk",system-ui,sans-serif;--mono:"Geist Mono",ui-monospace,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark}}:root[data-theme="dark"]{color-scheme:dark}
+html.lenis,html.lenis body{height:auto}.lenis.lenis-smooth{scroll-behavior:auto!important}
+*{box-sizing:border-box}body{margin:0;background:var(--k);color:var(--off);font-family:var(--grot);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:hidden;cursor:none}
+@media (hover:none){body{cursor:auto}.cur{display:none}}
+body *{border-radius:0!important}
+img{display:block;max-width:100%}
+.s{font-family:var(--serif);font-weight:300;font-variation-settings:"opsz" 144,"SOFT" 30,"WONK" 1;letter-spacing:-.025em;line-height:.9}
+.s i{font-style:italic;font-weight:300}
+.mono{font-family:var(--mono);font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--mute)}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--off);color:var(--k);padding:14px 20px;font-weight:600;font-size:14px;text-decoration:none;border:0;cursor:none;transition:background .25s,color .25s;font-family:var(--grot)}
+.btn:hover{background:var(--sig);color:#fff}
+.btn.ghost{background:transparent;color:var(--off);box-shadow:inset 0 0 0 1px var(--line)}.btn.ghost:hover{background:var(--off);color:var(--k);box-shadow:none}
+.btn--dark,.btn--light,.btn--outline,.cform__submit{background:var(--off);color:var(--k);box-shadow:none}
+/* cursor */
+.cur{position:fixed;left:0;top:0;width:10px;height:10px;background:var(--off);z-index:300;pointer-events:none;transform:translate(-50%,-50%);transition:width .25s,height .25s,background .25s;border-radius:50%!important;display:grid;place-items:center;font-size:11px;font-weight:600;color:var(--k);mix-blend-mode:difference}
+.cur.open{width:72px;height:72px;background:#fff;mix-blend-mode:normal;color:#000}
+.cur.open::after{content:"Open"}
+.cur.link{width:36px;height:36px;background:var(--off);opacity:.6}
+/* film ticks */
+.ticks{position:fixed;top:0;bottom:0;width:22px;z-index:40;pointer-events:none;background-image:repeating-linear-gradient(to bottom,transparent 0 18px,rgba(237,233,224,.3) 18px 20px);background-size:100% 20px;opacity:.55}
+.ticks.l{left:10px}.ticks.r{right:10px}
+/* preloader */
+.pre{position:fixed;inset:0;z-index:200;background:var(--k);display:grid;place-items:center;overflow:hidden}
+.pre .img{position:absolute;inset:0;display:grid;grid-template-columns:1fr 1fr}
+.pre .img div{overflow:hidden;position:relative}.pre .img img{position:absolute;top:0;height:100%;width:200%;object-fit:cover;object-position:center 20%;filter:grayscale(1) contrast(1.1) brightness(.5)}
+.pre .img div:first-child img{left:0}.pre .img div:last-child img{left:-100%}
+.pre .n{position:relative;font-family:var(--serif);font-weight:300;font-size:clamp(120px,22vw,320px);line-height:.8;letter-spacing:-.03em;font-variant-numeric:tabular-nums;color:var(--off);font-variation-settings:"opsz" 144,"SOFT" 30}
+.pre .cap{position:absolute;left:48px;bottom:40px;right:48px;display:flex;justify-content:space-between}
+/* nav */
+.nav{position:fixed;left:0;right:0;top:0;z-index:50;display:flex;justify-content:space-between;align-items:center;padding:26px 48px;mix-blend-mode:difference}
+.nav a{color:#fff;text-decoration:none;font-size:13px;letter-spacing:.02em;cursor:none}
+.nav .nm{font-family:var(--serif);font-size:22px;font-weight:300;font-variation-settings:"opsz" 48,"SOFT" 30}.nav .nm i{font-style:italic}
+.nav .r{display:flex;gap:28px}
+@media (max-width:760px){.nav{padding:20px 24px}.nav .r a:not(:last-child){display:none}}
+/* home */
+.home{height:100vh;height:100svh;position:relative;overflow:hidden}
+.reel{position:absolute;inset:0}
+.reel img{position:absolute;left:auto;right:-2%;top:-44%;height:150%;width:auto;max-width:none;object-fit:none;filter:brightness(.85) contrast(1.05);-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 32%);mask-image:linear-gradient(90deg,transparent 0,#000 32%);animation:drift 40s ease-in-out infinite alternate;transform-origin:center}
+@keyframes drift{from{transform:translate(0,0)}to{transform:translate(-1.5%,1.2%)}}
+.reel::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(26,26,24,.1),rgba(26,26,24,.15) 55%,rgba(26,26,24,.9))}
+.home .frame{position:absolute;left:48px;top:96px;display:flex;gap:24px;align-items:center}
+.home .frame i{width:60px;height:1px;background:var(--off);opacity:.5}
+.home h1{position:absolute;left:48px;right:48px;bottom:140px;margin:0;font-size:clamp(72px,14vw,232px)}
+.home h1 .l{display:block;overflow:hidden}.home h1 .l>span{display:block;transform:translateY(110%)}
+.home .row{position:absolute;left:48px;right:48px;bottom:44px;display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:24px;align-items:end}
+.home .row p{margin:0;max-width:40ch;color:rgba(237,233,224,.85);font-size:17px}
+.home .row .fig{font-family:var(--serif);font-weight:300;font-size:18px;color:var(--off);font-variation-settings:"opsz" 24,"SOFT" 30}
+.home .row .fig i{color:var(--mute);font-style:italic}
+.home .idle{position:absolute;left:50%;bottom:16px;transform:translateX(-50%);opacity:0;transition:opacity .6s}
+.home.idle .idle{opacity:1}
+.home.idle h1{transition:transform 6s linear;transform:translateX(2vw)}
+.home.idle .reel img{filter:brightness(.95) contrast(1.05);transition:filter 2s}
+@media (max-width:900px){.home h1{left:24px;right:24px;bottom:220px;font-size:20vw}.home .row{left:24px;right:24px;grid-template-columns:1fr;gap:12px}.home .frame{left:24px;top:84px}.home .row .fig{display:none}}
+/* figures line */
+.figs{padding:28px 48px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.figs span{font-family:var(--serif);font-weight:300;font-size:clamp(18px,1.8vw,24px);font-variation-settings:"opsz" 24,"SOFT" 30}.figs span i{color:var(--mute);font-style:italic}
+@media (max-width:900px){.figs{padding:20px 24px}}
+/* works */
+.works{padding:140px 0 60px}
+.works .hd{padding:0 48px;display:flex;justify-content:space-between;align-items:end;margin-bottom:40px}
+.works .hd h2{margin:0;font-size:clamp(44px,7vw,110px)}
+.wk{position:relative;display:block;width:100%;background:none;border:0;padding:0;text-align:left;color:var(--off);cursor:none;font:inherit}
+.wk .im{position:relative;height:min(78vh,760px);overflow:hidden;margin:0 48px}
+.wk .im img{position:absolute;inset:-10% 0;width:100%;height:120%;object-fit:cover;filter:brightness(.78) saturate(.95);transition:filter .6s}
+.wk:hover .im img{filter:brightness(.85) saturate(1)}
+.wk .im .ob{position:absolute;left:auto;bottom:auto;right:5%;top:10%;width:min(44%,640px);height:auto;filter:drop-shadow(0 40px 60px rgba(0,0,0,.7));transform:translateY(30px);opacity:0;transition:opacity .7s,transform .9s cubic-bezier(.2,.8,.2,1)}
+.wk .im .ob.phone{width:min(20%,280px);right:10%}
+.wk .im.dark{background:#232321;background-image:radial-gradient(ellipse at 30% 40%,rgba(255,77,0,.12),transparent 55%)}
+.wk .im.dark .ob{top:50%;transform:translateY(-50%) translateY(30px)}.wk.inview .im.dark .ob{transform:translateY(-50%)}
+.wk .im.dark .ob.a{left:5%;right:auto;width:46%}.wk .im.dark .ob.b{right:5%;width:42%;transition-delay:.15s}
+@media (max-width:900px){.wk .im.dark .ob.a{width:90%;left:5%;top:8%;transform:none}.wk .im.dark .ob.b{display:none}}
+.wk.inview .im .ob{opacity:1;transform:none}
+.wk .cap{display:grid;grid-template-columns:auto 1fr auto;gap:24px;align-items:baseline;padding:22px 48px 60px}
+.wk .cap .n{font-family:var(--mono);font-size:12px;color:var(--mute)}
+.wk .cap h3{margin:0;font-size:clamp(36px,5vw,84px)}
+.wk .cap .meta{text-align:right;font-size:14px;color:var(--mute)}.wk .cap .meta b{display:block;font-family:var(--serif);font-weight:300;font-size:clamp(24px,3vw,44px);color:var(--sig);letter-spacing:-.02em;line-height:1;margin-bottom:6px;font-variation-settings:"opsz" 48,"SOFT" 30}
+.also{padding:40px 48px 120px}
+.also .hd{display:flex;justify-content:space-between;margin-bottom:18px}
+.al{border-top:1px solid var(--line)}
+.al button{display:grid;grid-template-columns:1.4fr 1fr 1.2fr auto;gap:20px;width:100%;background:none;border:0;border-bottom:1px solid var(--line);padding:18px 0;text-align:left;color:var(--off);font:inherit;cursor:none;align-items:baseline}
+.al button:hover .t{color:var(--sig)}
+.al .t{font-family:var(--serif);font-weight:300;font-size:clamp(22px,2.4vw,34px);letter-spacing:-.02em;font-variation-settings:"opsz" 48,"SOFT" 30}
+.al .m{color:var(--mute);font-size:14px}.al .r{font-size:14px}.al .a{font-size:18px}
+@media (max-width:900px){.works{padding:100px 0 40px}.works .hd,.also{padding-left:24px;padding-right:24px}.wk .im{margin:0 24px;height:60vh}.wk .cap{padding:16px 24px 44px;grid-template-columns:1fr}.wk .cap .meta{text-align:left}.wk .im .ob{display:none}.al button{grid-template-columns:1fr 1fr}.al .m:nth-child(3){display:none}}
+/* credentials strip */
+.creds{padding:0 48px 120px}
+.creds .hd{display:flex;justify-content:space-between;align-items:end;margin-bottom:28px}
+.creds .hd h2{margin:0;font-size:clamp(36px,5vw,72px)}
+.cg{display:grid;grid-template-columns:repeat(4,1fr);gap:40px 28px;border-top:1px solid var(--line);padding-top:32px}
+.cg div{display:flex;flex-direction:column;gap:14px}
+.cg .lg{height:56px;display:flex;align-items:center}.cg .lg img{height:34px;width:auto;max-width:170px;object-fit:contain;object-position:left}
+.cg b{font-weight:500;font-size:15px;display:block}.cg b i{font-style:normal;color:var(--sig);margin-left:8px}
+.cg span{font-size:13.5px;color:var(--mute);line-height:1.5;display:block}
+@media (max-width:900px){.creds{padding:0 24px 80px}.cg{grid-template-columns:1fr 1fr}}
+/* about */
+.about{padding:120px 48px;display:grid;grid-template-columns:1fr 1fr;gap:48px;border-top:1px solid var(--line)}
+.about .pic{aspect-ratio:4/5;overflow:hidden;max-width:520px}.about .pic img{width:100%;height:100%;object-fit:cover;object-position:center 20%}
+.about h2{margin:0 0 24px;font-size:clamp(36px,4.6vw,68px)}
+.about p{max-width:46ch;color:rgba(237,233,224,.85);font-size:17px}
+.about .cr{margin-top:28px;border-top:1px solid var(--line)}
+.about .cr div{display:grid;grid-template-columns:140px 1fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--line);font-size:14px}
+.about .cr div span:first-child{color:var(--mute)}
+.about .logos{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;margin-top:28px}.about .logos div{height:84px;display:grid;place-items:center;box-shadow:inset 0 0 0 1px var(--line)}.about .logos img{max-height:30px;max-width:64%;width:auto;filter:invert(1);opacity:.75}
+@media (max-width:900px){.about{grid-template-columns:1fr;padding:80px 24px}}
+/* terms: rows */
+.terms{padding:0 48px 120px}
+.terms .hd{display:flex;justify-content:space-between;align-items:end;margin-bottom:28px}
+.terms .hd h2{margin:0;font-size:clamp(36px,5vw,72px)}
+.tr{display:grid;grid-template-columns:1.2fr 1.6fr auto;gap:28px;align-items:center;padding:34px 0;border-top:1px solid var(--line)}
+.tr:last-child{border-bottom:1px solid var(--line)}
+.tr h3{margin:0;font-size:clamp(30px,3.6vw,56px)}.tr h3 small{display:block;font-family:var(--mono);font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--sig);margin-bottom:12px;font-variation-settings:normal}
+.tr p{margin:0;color:rgba(237,233,224,.8);font-size:16px;max-width:52ch}
+@media (max-width:900px){.terms{padding:0 24px 80px}.tr{grid-template-columns:1fr;gap:16px}}
+/* contact */
+.contact{min-height:100vh;padding:140px 48px 60px;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start;border-top:1px solid var(--line)}
+.contact h2{margin:0;font-size:clamp(64px,11vw,180px)}
+.contact .ways{margin-top:28px;border-top:1px solid var(--line);max-width:520px}
+.contact .ways a{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid var(--line);color:var(--off);text-decoration:none;cursor:none}.contact .ways a span{color:var(--mute)}.contact .ways a:hover{color:var(--sig)}
+.cform{background:transparent}.cform__field>label{color:var(--off)}
+.cform__field input[type="text"],.cform__field input[type="email"],.cform__field input[type="tel"],.cform__field textarea{background:transparent;border:1px solid var(--line);color:var(--off);font-family:var(--grot)}
+.cform__check{border:1px solid var(--line);color:var(--off);background:transparent}.cform__check:has(input:checked){background:var(--off);color:var(--k)}
+@media (max-width:900px){.contact{grid-template-columns:1fr;padding:100px 24px 40px}}
+.foot{padding:24px 48px 40px;display:flex;justify-content:space-between;font-size:12px;color:var(--mute);border-top:1px solid var(--line)}
+.modal__panel{background:#232321;color:var(--off)}
+.modal__title,.cmodal__lead,.modal__text p{color:var(--off)}
+.cmodal__eye{color:var(--sig)}
+.modal .cform__field>label{color:var(--off)}
+.modal .cform__field input[type="text"],.modal .cform__field input[type="email"],.modal .cform__field input[type="tel"],.modal .cform__field textarea{background:transparent;border:1px solid var(--line);color:var(--off)}
+.modal .cform__field input::placeholder,.modal .cform__field textarea::placeholder{color:rgba(237,233,224,.35)}
+.modal .cform__check{border:1px solid var(--line);color:var(--off);background:transparent}.modal .cform__check:has(input:checked){background:var(--off);color:var(--k)}
+.modal__close{background:var(--off);color:var(--k)}
+@media (max-width:900px){.ticks{display:none}body{cursor:auto}.cur{display:none}.nav{padding:18px 20px}.nav .nm{font-size:18px}.home h1{bottom:200px}.home .row{bottom:28px}.figs{flex-direction:column;gap:8px}.works .hd h2{font-size:14vw}.wk .cap h3{font-size:10vw}.creds .hd,.terms .hd{flex-direction:column;align-items:flex-start;gap:8px}.contact h2{font-size:22vw}.foot{padding:20px 24px 36px}.about .logos{grid-template-columns:repeat(3,1fr)}.reel img{right:-38%;top:-46%;height:150%;animation:none;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 40%);mask-image:linear-gradient(90deg,transparent 0,#000 40%)}}
+.top{position:fixed;right:40px;bottom:32px;z-index:60;width:44px;height:44px;border:1px solid var(--line);background:rgba(26,26,24,.7);color:var(--off);backdrop-filter:blur(10px);display:grid;place-items:center;cursor:none;opacity:0;transform:translateY(10px);transition:opacity .3s,transform .3s,background .3s}.top.on{opacity:1;transform:none}.top:hover{background:var(--off);color:var(--k)}.top svg{width:16px;height:16px}
+@media (max-width:900px){.top{right:16px;bottom:16px;cursor:auto}}
+/* case pages (overlays in the same language) */
+.hero2{display:grid;grid-template-columns:1.1fr .9fr;min-height:82vh}
+.hero2 .t{padding:140px 48px 48px;display:flex;flex-direction:column;justify-content:flex-end}
+.hero2 .t .mono{margin-bottom:16px}
+.hero2 h1{margin:0;font-size:clamp(44px,6.4vw,108px)}
+.hero2 .im{position:relative;overflow:hidden;background:#111}.hero2 .im img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero2.txt{min-height:0;grid-template-columns:1fr}.hero2.txt .t{padding:140px 48px 40px}
+.cp .nums{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 48px}
+.cp .nums div{padding:28px 20px 28px 0;border-right:1px solid var(--line);padding-left:20px}.cp .nums div:first-child{padding-left:0}.cp .nums div:last-child{border-right:0}
+.cp .nums b{display:block;font-size:clamp(36px,4.6vw,72px);color:var(--sig);line-height:.9}
+.cp .nums span{display:block;margin-top:10px;font-size:14px;color:var(--mute)}
+.cp .sec p.lead{font-size:clamp(20px,2vw,26px);line-height:1.35;color:var(--off);font-weight:300}
+.pil{display:grid;grid-template-columns:repeat(3,1fr);gap:28px 24px;margin-top:8px}
+.pil div{border-top:1px solid var(--line);padding-top:14px}.pil h4{margin:8px 0 8px;font-family:var(--serif);font-weight:300;font-size:24px;letter-spacing:-.02em;font-variation-settings:"opsz" 48,"SOFT" 30}.pil p{margin:0;font-size:14.5px;color:var(--mute);max-width:none}
+.ng{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:8px}
+.ng div{border-top:1px solid var(--line);padding-top:14px}.ng b{display:block;font-size:clamp(32px,3.6vw,56px);color:var(--off);line-height:.9}.ng span{display:block;margin-top:8px;font-size:13.5px;color:var(--mute)}
+.outs{list-style:none;padding:0;margin:8px 0 0;columns:2;column-gap:40px;max-width:none!important}
+.outs li{break-inside:avoid;padding:12px 0 12px 22px;border-top:1px solid var(--line);position:relative;font-size:15px;color:rgba(237,233,224,.85)}
+.outs li::before{content:"";position:absolute;left:0;top:20px;width:10px;height:2px;background:var(--sig)}
+.pn{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line);margin-top:40px}
+.pnb{background:none;border:0;color:var(--off);text-align:left;padding:40px 48px 120px;cursor:none;font:inherit;display:flex;flex-direction:column;gap:12px}
+.pnb.r{text-align:right;align-items:flex-end;border-left:1px solid var(--line)}
+.pnb b{font-size:clamp(28px,3.4vw,52px);line-height:.95}.pnb:hover b{color:var(--sig)}
+@media (max-width:900px){.hero2{grid-template-columns:1fr;min-height:0}.hero2 .t{padding:110px 24px 28px}.hero2 .im{height:48vh}.cp .nums{grid-template-columns:1fr 1fr;margin:0 24px}.cp .nums div{border-right:0;padding-left:0}.pil,.ng{grid-template-columns:1fr}.outs{columns:1}.pnb{padding:28px 24px 60px}}
+.cp{position:fixed;inset:0;z-index:150;background:var(--k);color:var(--off);overflow:auto;opacity:0;visibility:hidden;transition:opacity .5s,visibility 0s .5s;overscroll-behavior:contain}
+.cp.open{opacity:1;visibility:visible;transition:opacity .5s}
+.cp .x{position:fixed;right:48px;top:26px;z-index:3;background:var(--off);color:var(--k);border:0;padding:12px 16px;font:inherit;font-weight:600;font-size:13px;cursor:none}
+.cp .hero{position:relative;height:88vh;overflow:hidden}
+.cp .hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.6)}
+.cp .hero.dark{height:60vh;background:#232321}
+.cp .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}.cp .tags span{font-size:12.5px;padding:7px 10px;box-shadow:inset 0 0 0 1px var(--line);color:rgba(237,233,224,.8)}
+.cp .hero .t{position:absolute;left:48px;right:48px;bottom:48px}
+.cp .hero h1{margin:0;font-size:clamp(48px,8vw,140px)}
+.cp .hero .mono{margin-bottom:16px}
+.cp .nums{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 48px}
+.cp .nums div{padding:28px 0;border-right:1px solid var(--line);padding-left:20px}.cp .nums div:first-child{padding-left:0}.cp .nums div:last-child{border-right:0}
+.cp .nums b{display:block;font-family:var(--serif);font-weight:300;font-size:clamp(44px,6vw,96px);letter-spacing:-.03em;line-height:.9;color:var(--sig);font-variation-settings:"opsz" 144,"SOFT" 30}
+.cp .nums span{display:block;margin-top:10px;font-size:14px;color:var(--mute)}
+.cp .sec{display:grid;grid-template-columns:200px 1fr;gap:40px;padding:80px 48px;border-bottom:1px solid var(--line)}
+.cp .sec .lab{font-family:var(--mono);font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--mute);position:sticky;top:100px;align-self:start}
+.cp .sec h2{margin:0 0 20px;font-size:clamp(30px,3.6vw,56px)}
+.cp .sec p{max-width:62ch;color:rgba(237,233,224,.85);font-size:17px}
+.cp .sec ul{padding-left:18px;color:rgba(237,233,224,.85);max-width:62ch}.cp .sec li{margin:6px 0}
+.cp .fig{margin-top:28px;display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.cp .fig figure:last-child:nth-child(odd){grid-column:1/-1}.cp .fig img[style*="max-width"]{max-width:100%!important}
+.cp .fig figure{margin:0}.cp .fig img{width:100%;height:auto}.cp .fig figcaption{margin-top:10px;font-size:13px;color:var(--mute)}.cp .fig figcaption b{color:var(--off);display:block;font-weight:500}
+.cp .fig.one{grid-template-columns:1fr;gap:40px}.cp .fig.one img{width:100%}
+.cp .next{padding:80px 48px 120px;display:flex;justify-content:space-between;align-items:end}
+.cp .next h3{margin:0;font-size:clamp(36px,6vw,96px)}.cp .next .mono{margin-bottom:12px}
+@media (max-width:900px){.cp .hero .t,.cp .next{left:24px;right:24px;padding-left:24px;padding-right:24px}.cp .nums{margin:0 24px;grid-template-columns:1fr}.cp .nums div{border-right:0;padding-left:0;border-bottom:1px solid var(--line)}.cp .sec{grid-template-columns:1fr;padding:60px 24px}.cp .sec .lab{position:static}.cp .fig{grid-template-columns:1fr}.cp .x{right:24px}}
+</style></head>
 <body>
-<!-- NAV -->
-<header class="nav" id="nav">
-  <div class="wrap nav__row">
-    <a class="nav__brand" href="#top" aria-label="Mohamed Fouad">
-      <img class="nav__logo nav__logo--lockup" src="assets/img/12569c5ada.png" alt="Mohamed Fouad">
-    </a>
-    <nav class="nav__chips" aria-label="Primary">
-      <a class="nav__chip" href="#work">Work</a>
-      <a class="nav__chip" href="#credentials">Credentials</a>
-      <a class="nav__chip" href="#system">System</a>
-      <a class="nav__chip" href="#engagements">Engagements</a>
-      <a class="nav__chip" href="#testimonials">Testimonials</a>
-      <a class="nav__chip" href="#contact">Contact</a>
-    </nav>
-    <div class="nav__right">
-      <div class="nav__time" aria-live="polite">
-        <span class="place">Cairo</span>
-        <span class="val" id="liveTime">—</span>
-      </div>
-      <button type="button" class="btn btn--dark btn--sm" data-contact>Get in touch</button>
-    </div>
-  </div>
-</header>
+<div class="cur" id="cur"></div>
+<div class="pre" id="pre"><div class="img"><div><img src="assets/img/c36f17b4ae.jpg" alt=""></div><div><img src="assets/img/c36f17b4ae.jpg" alt=""></div></div><div class="n" id="preN">0</div><div class="cap mono"><span>Mohamed Fouad</span><span>Marketing Director</span><span>Cairo · US · Gulf · MENA</span></div></div>
+<div class="ticks l"></div><div class="ticks r"></div>
+<nav class="nav"><a class="nm" href="#top">M<i>o</i>hamed F<i>o</i>uad</a><div class="r"><a href="#works">Works</a><a href="#creds">Credentials</a><a href="#about">About</a><a href="#terms">Terms</a><a href="#contact">Contact</a></div></nav>
 
-<!-- HERO -->
-<section class="hero" id="top">
-  <div class="hero__bg" aria-hidden="true">
-    <div class="hero__blob hero__blob--1"></div>
-    <div class="hero__blob hero__blob--2"></div>
-    <div class="hero__blob hero__blob--3"></div>
-    <div class="hero__blob hero__blob--4"></div>
-    <div class="hero__aurora"></div>
-    <div class="hero__grid"></div>
-    <div class="hero__noise"></div>
-  </div>
-  <div class="hero__vignette"></div>
-  <div class="hero__inner">
-    <div class="hero__avail reveal">
-      <span class="dot"></span>
-      <span>Two engagements open for Q1 2027</span>
-    </div>
-    <p class="hero__eye reveal d1">Marketing Director · US, Gulf &amp; MENA</p>
-    <h1 class="hero__name reveal d2">Mohamed Fouad</h1>
-    <p class="hero__sub reveal d3">Growth, brand and e-commerce, built as systems that keep producing after the campaign ends.</p>
-    <div class="hero__cta reveal d4">
-      <button type="button" class="btn btn--light btn--lg" data-contact>Start a conversation</button>
-      <a class="lnk" href="#work"><span>See the work</span> <span class="lnk__arw">›</span></a>
-    </div>
-  </div>
-  <a class="hero__scroll" href="#overview" aria-label="Scroll">
-    <span>Scroll</span>
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
-  </a>
+<section class="home" id="home"><a id="top"></a>
+  <div class="reel" id="reel"><img class="on" src="assets/img/c36f17b4ae.jpg" alt=""></div>
+  <div class="frame mono"><span>Marketing Director</span><i></i><span>Cairo · US · Gulf · MENA</span></div>
+  <h1 class="s"><span class="l"><span>M<i>o</i>hamed</span></span><span class="l"><span>F<i>o</i>uad</span></span></h1>
+  <div class="row"><p>I build the machinery under the campaigns: storefronts, CRM automation, AI intake, and the integrations that carry a lead from a first text to a paid invoice.</p><span class="fig">Marketing Director <i>Cairo, working US, Gulf and MENA</i></span><span class="fig" style="text-align:right">Two seats open <i>Q1 2027</i></span></div>
+  <div class="idle mono">Waiting mode · move to continue</div>
 </section>
+<div class="figs"><span>Twelve years <i>in the work</i></span><span>Six markets <i>hands on</i></span><span>Fifty people <i>led</i></span><span>Three million <i>reached</i></span></div>
 
-<section class="section section--alt" id="credentials">
-  <div class="wrap">
-    <div class="s-head">
-      <p class="s-head__eye">Partner programs &amp; certifications</p>
-      <h2>Credentialed on the platforms the work runs on.</h2>
-      <p class="s-head__sub">Each one says what the relationship is, and what has been built with it.</p>
-    </div>
-    <div class="select" id="select" tabindex="0" aria-roledescription="carousel" aria-label="Partner programs and certifications"></div>
-    <div class="ctrl">
-      <div class="segs" id="dots"></div>
-      <span class="count" id="count"><b>01</b> / 08</span>
-    </div>
-  </div>
-</section>
-<!-- WORK -->
-<section class="section section--alt" id="work">
-  <div class="wrap">
-    <div class="s-head"><p class="s-head__eye">Case studies</p><h2>Three businesses, with the receipts.</h2><p class="s-head__sub">Results a buyer can check from their own phone.</p></div>
-    <div class="case">
-      <div>
-        <div class="case__eye"><b>Mr. Pool Leak Repair</b>Local service, Dallas</div>
-        <h3>Ask ChatGPT for the best pool leak company in Dallas. <span>It names this one first.</span></h3>
-        <p>A good business running on Google Ads alone, rebuilt as an operation: a new site, nine managed service areas, an AI receptionist on every call, and a system that turns a text into a paid invoice with no one at a desk.</p>
-        <div class="case__proof"><span>First on ChatGPT and Gemini</span><span>First in the Google map pack</span><span>Rank 1 on six keywords</span><span>4.8 from 226 reviews</span></div>
-        <a class="lnk" href="#casestudyPool" data-casestudy="pool"><span>Read the case study</span> <span class="lnk__arw">›</span></a>
-      </div>
-      <div class="case__media"><img src="assets/img/c4525e55ad.jpg" alt="ChatGPT names Mr. Pool Leak Repair first"><div class="case__cap"><b>ChatGPT</b><span>Best pool leak detection company in Dallas</span></div></div>
-    </div>
-    <div class="case">
-      <div>
-        <div class="case__eye"><b>Dejavu</b>Fashion retail, Egypt and the UAE</div>
-        <h3>A respected local label, rebuilt into <span>the category leader in two markets.</span></h3>
-        <p>New brand system, new site and stack, a dedicated e-commerce warehouse, a native app on both stores, every major marketplace, and airtime on flagship networks. First month after relaunch: 3,000% revenue growth.</p>
-        <div class="case__proof"><span>App on iOS and Android</span><span>2.4M on Facebook</span><span>Amazon, Noon, Sivvi</span><span>MBC and Nile Radio</span></div>
-        <a class="lnk" href="#casestudyDejavu" data-casestudy="dejavu"><span>Read the case study</span> <span class="lnk__arw">›</span></a>
-      </div>
-      <div class="case__media"><img src="assets/img/b7ce69ba1d.jpg" alt="Dejavu on social, 2.4M followers"><div class="case__cap"><b>Dejavu</b><span>2.4M followers on Facebook</span></div></div>
-    </div>
-    <div class="case">
-      <div>
-        <div class="case__eye"><b>Cubbies</b>Children’s wear, Egypt</div>
-        <h3>From nothing to <span>2,000 orders in six months.</span></h3>
-        <p>Identity, a Shopify storefront built for phones, the full catalog, card payments and a shipping integration, launch-day paid media, a review program, and a vendor listing on Homzmart. Two sales channels from day one.</p>
-        <div class="case__proof"><span>2,000+ orders</span><span>4.96 average across 60+ reviews</span><span>Homzmart vendor</span></div>
-        <a class="lnk" href="#casestudyCubbies" data-casestudy="cubbies"><span>Read the case study</span> <span class="lnk__arw">›</span></a>
-      </div>
-      <div class="case__media"><img src="assets/img/6545469885.jpg" alt="Cubbies, Black Friday"><div class="case__cap"><b>cubbieseg.com</b><span>Black Friday campaign</span></div></div>
-    </div>
-  </div>
-</section>
+<section class="works" id="works"><div class="hd"><h2 class="s">Sele<i>c</i>ted works</h2><span class="mono">Three systems, nine businesses</span></div><button type="button" class="wk" data-case="pool"><div class="im"><img src="assets/img/7e5ffddc91.jpg" alt="" style="object-position:50% 40%"></div><div class="cap"><span class="n">01 / 03</span><h3 class="s">Mr. Pool <i>Leak</i> Repair</h3><div class="meta"><b>#1</b> on ChatGPT<br>Dallas, local service · Lead-to-cash engine, AI search</div></div></button><button type="button" class="wk" data-case="dejavu"><div class="im"><img src="assets/img/4040a4a7ce.jpg" alt="" style="object-position:50% 17%"><img class="ob phone" src="assets/img/2d8c5cf1df.webp" alt=""></div><div class="cap"><span class="n">02 / 03</span><h3 class="s">Dejav<i>u</i></h3><div class="meta"><b>3,000%</b> revenue, month one<br>Egypt and the UAE, fashion · Brand, stack, app, marketplaces</div></div></button><button type="button" class="wk" data-case="cubbies"><div class="im"><img src="assets/img/6545469885.jpg" alt=""><img class="ob " src="assets/img/857c03c2a2.webp" alt="" style="width:min(26%,360px);right:6%;top:auto;bottom:8%"></div><div class="cap"><span class="n">03 / 03</span><h3 class="s">C<i>u</i>bbies</h3><div class="meta"><b>2,000</b> orders in six months<br>Egypt, children’s wear · Launch from zero, Shopify</div></div></button>
+<div class="also"><div class="hd"><span class="mono">Also shipped</span><span class="mono">Six more, by market</span></div><div class="al"><button type="button" data-case="samena"><span class="t">Samena Stores</span><span class="m">Saudi Arabia, retail</span><span class="m">Migration and relaunch</span><span class="r">300% lift in month one</span></button><button type="button" data-case="jet-setter"><span class="t">Jet Setter</span><span class="m">Canada, travel</span><span class="m">Lead engine, phased</span><span class="r">Foundation to scale</span></button><button type="button" data-case="rejuvalyfe"><span class="t">Rejuvalyfe</span><span class="m">Costa Rica, clinic</span><span class="m">Bilingual growth</span><span class="r">Compliance-safe, 2,000 leads across the portfolio</span></button><button type="button" data-case="kate-kamrani"><span class="t">Kate Kamrani</span><span class="m">United States, real estate</span><span class="m">Buyer routing</span><span class="r">Buyers to the agent in minutes</span></button><button type="button" data-case="unilegal"><span class="t">Unilegal</span><span class="m">Costa Rica, law</span><span class="m">Inquiry engine</span><span class="r">High-intent cases at a measurable cost</span></button><button type="button" data-case="cardoo"><span class="t">Cardoo</span><span class="m">Egypt, electronics</span><span class="m">Product launch</span><span class="r">Ear Buds v.3 sold out in a month</span></button></div></div></section>
 
-<!-- CLIENTS -->
-<section class="section section--sm" id="clients">
-  <div class="wrap">
-    <div class="s-head" style="margin-bottom:clamp(28px,3.5vw,40px)">
-      <p class="s-head__eye">Selected clients</p>
-      <p class="s-head__sub" style="margin-top:6px">United States, Canada, Costa Rica, Egypt, the UAE and Saudi Arabia.</p>
-    </div>
-    <div class="lgrid"><div class="lg"><img src="assets/img/logo-mrpool.png" alt="" loading="lazy"></div><div class="lg"><img src="assets/img/logo-dejavu.png" alt="" loading="lazy"></div><div class="lg"><img src="assets/img/logo-samena.png" alt="" loading="lazy"></div><div class="lg"><img src="assets/img/logo-jetsetter.png" alt="" loading="lazy"></div><div class="lg"><img src="assets/img/logo-rejuvalyfe.png" alt="" loading="lazy"></div><div class="lg"><img src="assets/img/logo-unilegal.png" alt="" loading="lazy"></div><div class="lg"><img src="assets/img/logo-cardoo.png" alt="" loading="lazy"></div><div class="lg"><img src="assets/img/logo-katekamrani.png" alt="" loading="lazy"></div><div class="lg"><img src="assets/img/logo-fastdispute.png" alt="" loading="lazy"></div><div class="lg"><img src="assets/img/logo-worldvisions.png" alt="" loading="lazy"></div><div class="lg"><img src="assets/img/logo-oxygen.png" alt="" loading="lazy"></div><div class="lg"><img src="assets/img/logo-allafrica.png" alt="" loading="lazy"></div><div class="lg"><img src="assets/img/logo-eleven.png" alt="" loading="lazy"></div><div class="lg"><img src="assets/img/logo-callperfect.png" alt="" loading="lazy"></div><div class="lg"><img src="assets/img/logo-nockta.png" alt="" loading="lazy"></div></div>
-  </div>
-</section>
-<section class="section" id="studio">
-  <div class="wrap">
-    <div class="studio">
-      <div>
-        <p class="studio__eye">The studio</p>
-        <img class="studio__mark" src="assets/img/759106b5ec.svg" alt="Moco Studio">
-        <h2>Themes and apps, built for Shopify merchants.</h2>
-        <p>Moco Studio is where the e-commerce work becomes product. Themes designed for conversion on a phone, and apps for the parts of a store that still need a person rekeying data.</p>
-        <p class="muted">Novella, the first theme, is submitted to the Shopify Theme Store and in review. The app roadmap starts where the client builds kept hitting the same gaps.</p>
-        <div class="studio__cta"><a class="btn btn--dark" href="https://mocostudio.app" target="_blank" rel="noopener">Visit Moco Studio <span>↗</span></a></div>
-        <div class="facts"><div><b>Shopify Partner</b><span>Program member</span></div><div><b>Novella</b><span>In review, Theme Store</span></div><div><b>Apps</b><span>In development</span></div></div>
-      </div>
-      <div class="theme">
-        <div class="theme__shot">
-          <div class="reel" id="reel" role="img" aria-label="Pages of the Novella theme"><img src="assets/img/3c33c7f9a2.jpg" alt="Home"><img src="assets/img/812177126f.jpg" alt="Autumn 2026"><img src="assets/img/a975eaf469.jpg" alt="Lookbook"><img src="assets/img/9a9aee2ba0.jpg" alt="Shop by category"><img src="assets/img/46618a37fe.jpg" alt="Shop the look"><img src="assets/img/bb59f397ad.jpg" alt="Most loved"><img src="assets/img/5fa023e11f.jpg" alt="Fewer, better things"><img src="assets/img/6cbe437feb.jpg" alt="Journal"></div>
-          <div class="theme__frame"><i></i><i></i><i></i></div>
-          <span class="theme__tag">Shopify Theme Store</span>
-          
-        </div>
-        <div class="theme__body">
-          <div class="theme__row"><div class="theme__name">Novella<small>A quiet, editorial theme for clothes made to last</small></div><span class="status"><i></i>In review</span></div>
-          <div class="theme__meta"><div><b>Submitted</b>2026</div><div><b>Built for</b>Apparel &amp; lifestyle</div><div><b>By</b>Moco Studio</div></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- SYSTEM -->
-<section class="section section--dark" id="system">
-  <div class="wrap">
-    <div class="s-head">
-      <p class="s-head__eye">What gets built</p>
-      <h2>A text comes in. A paid invoice goes out. Nobody touches it.</h2>
-      <p class="s-head__sub">Five parts, one line. Watch a lead travel it.</p>
-    </div>
-    <div class="rail" id="rail">
-      <div class="rail__line"></div><div class="rail__fill"></div><div class="rail__dot" aria-hidden="true"></div>
-      <div class="stations">
-        <div class="station"><div class="station__pin">01</div><div><div class="station__name">The customer</div><p class="station__desc">A text, a call or a form, at any hour.</p></div></div>
-        <div class="station"><div class="station__pin">02</div><div><div class="station__name">The CRM</div><p class="station__desc">An AI receptionist answers in seconds, asks the question that prices the job.</p></div></div>
-        <div class="station"><div class="station__pin">03</div><div><div class="station__name">The server</div><p class="station__desc">Qualifies, prices from the matrix, moves the customer forward, sends the right message.</p></div></div>
-        <div class="station"><div class="station__pin">04</div><div><div class="station__name">The field app</div><p class="station__desc">Quote, booking, technician, reminder, invoice. The system of record.</p></div></div>
-        <div class="station"><div class="station__pin">05</div><div><div class="station__name">Paid</div><p class="station__desc">Card on file, warranty follow-up queued, dashboard shows nothing needs attention.</p></div></div>
-      </div>
-      <p class="rail__cap">Running today for a service company in Texas, with about seventy bots keeping watch. Swap the field app for a storefront and the same five parts run a brand.</p>
-    </div>
-  </div>
-</section>
-<!-- ABOUT -->
-<section class="section" id="about">
-  <div class="wrap">
-    <div class="overview">
-      <div class="overview__text">
-        <p class="s-head__eye">About</p>
-        <h2>Marketing, built like product.</h2>
-        <p>Most marketers run campaigns. I build the machinery underneath them: the storefront, the CRM, the AI intake, and the integrations that carry a lead from first text to paid invoice without a person in the middle.</p>
-        <p>Across the United States, Canada, Costa Rica, Egypt, the UAE and Saudi Arabia: teams built, brands launched, revenue systems scaled, and every one of them handed over documented, so it keeps running after I leave.</p>
-        <p class="about__credits">Guest speaker on e-commerce performance marketing for Fawry and Mylerz. On air on Radio Misr. Televised at BizNex, Egypt’s largest investment and franchising expo.</p>
-      </div>
-      <div class="overview__photo">
-        <img src="assets/img/352568272e.jpg" alt="Mohamed Fouad" style="object-position:center 30%">
-        <div class="overview__badge"><span class="dot"></span><span>Cairo, Egypt · Remote</span></div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- STATS -->
-<section class="section section--sm section--alt">
-  <div class="wrap">
-    <div class="stats">
-      <div class="stat reveal">
-        <span class="n"><span class="sym">+</span>12<span class="sym">y</span></span>
-        <span class="l">Years leading senior marketing</span>
-      </div>
-      <div class="stat reveal d1">
-        <span class="n">3M<span class="sym">+</span></span>
-        <span class="l">Audience reached across campaigns</span>
-      </div>
-      <div class="stat reveal d2">
-        <span class="n">50<span class="sym">+</span></span>
-        <span class="l">Team members led across regions</span>
-      </div>
-      <div class="stat reveal d3">
-        <span class="n">6</span>
-        <span class="l">Markets · Three continents</span>
-      </div>
-    </div>
-  </div>
-</section>
+<section class="creds" id="creds"><div class="hd"><h2 class="s">Certified where <i>the work runs.</i></h2><span class="mono">Partner · affiliate · certified</span></div><div class="cg"><div><div class="lg"><img src="assets/img/f101fba771.png" alt="Shopify"></div><b>Shopify<i>Partner</i></b><span>Storefronts built and scaled. Moco Studio ships themes to the Theme Store.</span></div><div><div class="lg"><img src="assets/img/21637c9bfa.png" alt="HighLevel"></div><b>HighLevel<i>Affiliate</i></b><span>The CRM behind every text, call and pipeline stage I ship.</span></div><div><div class="lg"><img src="assets/img/68fb34139a.png" alt="Google"></div><b>Google<i>Certified</i></b><span>Search Ads, AI-powered performance ads, Analytics IQ, GA4.</span></div><div><div class="lg"><img src="assets/img/acc3028f66.png" alt="Anthropic"></div><b>Anthropic<i>Certified</i></b><span>Claude Platform. The models behind the AI intake.</span></div><div><div class="lg"><img src="assets/img/13d823a496.png" alt="LinkedIn"></div><b>LinkedIn<i>Marketing Insider</i></b><span>Certified where B2B pipelines are built.</span></div><div><div class="lg"><img src="assets/img/c5b767d73e.png" alt="Microsoft"></div><b>Microsoft<i>Certified</i></b><span>Generative AI for marketing.</span></div><div><div class="lg"><img src="assets/img/49eef96bb2.png" alt="HubSpot"></div><b>HubSpot<i>Certified</i></b><span>Inbound and CRM fundamentals.</span></div><div><div class="lg"><img src="assets/img/78ee20fce4.png" alt="Higgsfield"></div><b>Higgsfield<i>Affiliate</i></b><span>AI video for launch and paid creative.</span></div></div></section>
 
-<!-- ENGAGEMENTS -->
-<section class="section section--alt" id="engagements">
-  <div class="wrap">
-    <div class="s-head"><p class="s-head__eye">Engagements</p><h2>Three ways to work together.</h2><p class="s-head__sub">Scoped around outcomes, not deliverables. Every one starts with the same two weeks.</p></div>
-    <div class="eng">
-      <article class="eng__card">
-        <div class="eng__top"><span class="eng__num">01</span><span class="eng__time">2 weeks</span></div>
-        <h3>The Diagnostic</h3>
-        <p class="eng__for">For any business that suspects the real constraint is somewhere other than where the team is looking.</p>
-        <ul class="eng__list"><li>Two weeks inside the numbers, the funnel, the team and the moat</li><li>Attribution audit: what is actually producing customers</li><li>A written diagnosis the owner can defend to a board</li><li>A quarter-by-quarter plan with the first build scoped</li></ul>
-        <p class="eng__out"><b>You leave with</b> a written diagnosis and a scoped first build.</p>
-        <button type="button" class="btn btn--dark" data-contact>Start with the Diagnostic</button>
-      </article>
-      <article class="eng__card eng__card--hi">
-        <div class="eng__top"><span class="eng__num">02</span><span class="eng__time">Quarterly</span></div>
-        <h3>Fractional Marketing Director</h3>
-        <p class="eng__for">Senior ownership of growth without a full-time hire, in the US, the Gulf or MENA.</p>
-        <ul class="eng__list"><li>Own the strategy, the channels, the team and the vendors</li><li>Brand, growth loops, media, content, operating cadence</li><li>A shared scorecard reviewed every quarter</li><li>Remote-first, on-site quarters where the work demands it</li><li>No long lock-ins; the systems stay with your team</li></ul>
-        <p class="eng__out"><b>You leave with</b> a marketing function that compounds.</p>
-        <button type="button" class="btn btn--light" data-contact>Apply for a seat</button>
-      </article>
-      <article class="eng__card">
-        <div class="eng__top"><span class="eng__num">03</span><span class="eng__time">6 to 12 weeks</span></div>
-        <h3>The Build</h3>
-        <p class="eng__for">A defined system: a lead-to-cash engine, a storefront and launch, a market entry, an AI-search program.</p>
-        <ul class="eng__list"><li>Fixed scope, fixed timeline, instrumented from day one</li><li>Engineered on your stack, documented and handed over</li><li>Training for the people who inherit it</li><li>Thirty days of support after launch</li></ul>
-        <p class="eng__out"><b>You leave with</b> a machine that runs without you.</p>
-        <button type="button" class="btn btn--dark" data-contact>Scope a build</button>
-      </article>
-    </div>
-  </div>
-</section>
-<!-- TESTIMONIALS -->
-<section class="section" id="testimonials">
-  <div class="wrap">
-    <div class="s-head"><p class="s-head__eye">Testimonials</p><h2>In their words.</h2></div>
-  </div>
-  <div class="wrap">
-    <div class="lead2">
-      <figure class="lead2__q">
-        <blockquote class="lead2__text">Mohamed took Eleven Realities to new heights. He managed to successfully penetrate the Saudi Arabian market and get us to where we needed to be.</blockquote>
-        <figcaption class="lead2__who"><img src="assets/img/23c2c87305.jpg" alt="Hussein El Sendiony"><div><b>Hussein El Sendiony</b><span>Founder, Eleven Realities · Saudi Arabia</span></div></figcaption>
-      </figure>
-      <figure class="lead2__q">
-        <blockquote class="lead2__text">One of the best in what he does. Mohamed is a one-man team who took an idea and turned it into a profitable brand. I highly recommend him.</blockquote>
-        <figcaption class="lead2__who"><img src="assets/img/08497061f4.jpg" alt="Dr. Mari Araya"><div><b>Dr. Mari Araya</b><span>Founder, Rejuvalyfe · Costa Rica</span></div></figcaption>
-      </figure>
-    </div>
-    <div class="quotes" style="margin-top:clamp(16px,1.8vw,24px)">
-      <figure class="quote"><blockquote class="quote__text">I had the privilege of working with Mohamed to evaluate marketing strategies and campaigns in the UAE. His marketing acumen was impressive, and he provided valuable insights to re-task the campaign effectively.</blockquote><figcaption class="quote__who"><img class="quote__avatar" src="assets/img/94e8666aba.jpg" alt="Nicolas Rubiez"><div><div class="name">Nicolas Rubiez</div><div class="role">COO · UAE</div></div></figcaption></figure>
-      <figure class="quote"><blockquote class="quote__text">Highly recommend Mohamed for his expertise in e-commerce and digital marketing. Adept at leading teams, he blends innovative strategies with effective execution.</blockquote><figcaption class="quote__who"><img class="quote__avatar" src="assets/img/aef10b7bee.jpg" alt="Omar Mohamed"><div><div class="name">Omar Mohamed</div><div class="role">Head of Commercial · Bosta</div></div></figcaption></figure>
-      <figure class="quote"><blockquote class="quote__text">Mohamed is talented and creative, with great leadership skills. He has a perfect attitude with team spirit and cooperation.</blockquote><figcaption class="quote__who"><img class="quote__avatar" src="assets/img/b332b1fce5.jpg" alt="Samer Ali"><div><div class="name">Samer Ali</div><div class="role">Growth Director · Fayendra</div></div></figcaption></figure>
-      <figure class="quote"><blockquote class="quote__text">Mohamed has been a very dedicated individual who had absolutely no vanity in spite of his high accomplishments and profound knowledge in his field.</blockquote><figcaption class="quote__who"><img class="quote__avatar" src="assets/img/0ea0724c19.jpg" alt="Mohamed Sayed"><div><div class="name">Mohamed Sayed</div><div class="role">HR Director · Dejavu</div></div></figcaption></figure>
-      <figure class="quote"><blockquote class="quote__text">I think Mohamed is very talented and I really enjoyed working with him. I wish him good luck in all his future endeavors and thank him for the amazing work and interest he put into our enterprise.</blockquote><figcaption class="quote__who"><img class="quote__avatar" src="assets/img/9476d73642.jpg" alt="Mariam Bowen"><div><div class="name">Mariam Bowen</div><div class="role">CEO · Jet Setter</div></div></figcaption></figure>
-    </div>
-  </div>
-</section>
-<!-- FINAL CONTACT (with inline form) -->
-<section class="finale" id="contact">
-  <div class="wrap">
-    <h2 class="reveal">Ready to build the machine?</h2>
-    <p class="finale__sub reveal d1">Currently accepting two new engagements for Q1 2027.</p>
+<section class="about" id="about"><div class="pic"><img src="assets/img/c36f17b4ae.jpg" alt="Mohamed Fouad" style="object-position:center 10%"></div><div><h2 class="s">Marketing, <i>built like product.</i></h2><p>Most marketers run campaigns. I build the machinery underneath them: the storefront, the CRM, the AI intake, and the integrations that carry a lead from first text to paid invoice without a person in the middle.</p><p>Across the United States, Canada, Costa Rica, Egypt, the UAE and Saudi Arabia: teams built, brands launched, revenue systems scaled, every one handed over documented so it keeps running after I leave.</p>
+<div class="cr"><div><span>Studio</span><span>Moco Studio, Shopify themes and apps. Novella, the first theme, in review at the Theme Store.</span></div><div><span>Speaking</span><span>Fawry and Mylerz. Radio Misr. BizNex, televised.</span></div><div><span>Clients</span><span>Fifteen companies across six markets</span></div></div>
+<div class="logos"><div><img src="assets/img/de7a30b2fa.png" alt=""></div><div><img src="assets/img/b443147132.png" alt=""></div><div><img src="assets/img/cd76ed2fb7.png" alt=""></div><div><img src="assets/img/673e720065.png" alt=""></div><div><img src="assets/img/e8408d4a0d.png" alt=""></div><div><img src="assets/img/93eb0db8d8.png" alt=""></div><div><img src="assets/img/d0b973e446.png" alt=""></div><div><img src="assets/img/dcc464ee29.png" alt=""></div><div><img src="assets/img/67aaf6a67b.png" alt=""></div><div><img src="assets/img/87ade4a02e.png" alt=""></div><div><img src="assets/img/1078fb5323.png" alt=""></div><div><img src="assets/img/7e5987b821.png" alt=""></div><div><img src="assets/img/d0d4e3688a.png" alt=""></div><div><img src="assets/img/d6234afa3a.png" alt=""></div><div><img src="assets/img/f44c53a126.png" alt=""></div></div></div></section>
 
-    <div class="finale__form reveal d2">
-      <form class="cform cform--inline" id="contactFormInline" novalidate>
+<section class="terms" id="terms"><div class="hd"><h2 class="s">Three ways <i>to work together.</i></h2><span class="mono">Every one starts with the same two weeks</span></div>
+<div class="tr"><h3 class="s"><small>Two weeks</small>The Diagnostic</h3><p>Two weeks inside the numbers, the funnel, the team and the moat. An attribution audit, a written diagnosis the owner can defend to a board, and a quarter-by-quarter plan with the first build scoped.</p><button type="button" class="btn" data-contact>Start here</button></div>
+<div class="tr"><h3 class="s"><small>Quarterly</small>Fractional Marketing Director</h3><p>Senior ownership of growth without a full-time hire: strategy, channels, team and vendors, with a shared scorecard every quarter. No long lock-ins; the systems stay with your team.</p><button type="button" class="btn" data-contact>Apply for a seat</button></div>
+<div class="tr"><h3 class="s"><small>Six to twelve weeks</small>The Build</h3><p>A defined system: a lead-to-cash engine, a storefront and launch, a market entry, an AI-search program. Fixed scope, fixed timeline, instrumented from day one, documented and handed over with training.</p><button type="button" class="btn" data-contact>Scope a build</button></div></section>
+
+<section class="contact" id="contact"><div><h2 class="s">Let’s <i>talk.</i></h2><div class="ways"><a href="https://www.linkedin.com/in/mohdfouad" target="_blank" rel="noopener">/in/mohdfouad<span>LinkedIn</span></a><a href="https://mocostudio.app" target="_blank" rel="noopener">mocostudio.app<span>Moco Studio</span></a></div></div><div><form class="cform cform--inline" id="contactFormInline" novalidate>
         <input type="text" name="botcheck" tabindex="-1" autocomplete="off" class="cform__honeypot" aria-hidden="true">
         <input type="hidden" name="access_key" value="4c0ea886-88c6-4bc9-835f-f8e542860d7b">
         <input type="hidden" name="subject" value="New inquiry — mohamedfouad.com (inline form)">
@@ -1875,499 +1840,10 @@ html.is-embedded .toast{position:absolute}
           </button>
           <p class="cform__assurance">* Required fields. I'll reply within 48 hours.</p>
         </div>
-      </form>
-
-      <div class="cform__success" id="cfSuccessInline" hidden>
-        <div class="cform__success__ico">✓</div>
-        <h4>Message sent.</h4>
-        <p>Thanks for reaching out. I'll reply within 48 hours, usually less.</p>
-      </div>
-    </div>
-
-    <div class="finale__contacts reveal d3">
-      <a class="finale__contact" href="mailto:mohdfouad@live.co.uk">
-        <span class="label">Email</span>
-        <span class="val">mohdfouad@live.co.uk</span>
-      </a>
-      <a class="finale__contact" href="https://www.linkedin.com/in/mohdfouad" target="_blank" rel="noopener">
-        <span class="label">LinkedIn</span>
-        <span class="val">/in/mohdfouad</span>
-      </a>
-      <div class="finale__contact">
-        <span class="label">Location</span>
-        <span class="val">Cairo · Remote</span>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- FOOTER -->
-<footer class="foot"><div class="wrap foot__row"><span>© 2026 Mohamed Fouad</span><div class="foot__links"><a href="mailto:mohdfouad@live.co.uk">Email</a><a href="https://www.linkedin.com/in/mohdfouad" target="_blank" rel="noopener">LinkedIn</a><a href="https://mocostudio.app" target="_blank" rel="noopener">Moco Studio</a></div></div></footer>
-<!-- PROJECT MODAL -->
-<div class="modal" id="projectModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-  <div class="modal__backdrop" data-close></div>
-  <div class="modal__panel">
-    <button class="modal__close" data-close aria-label="Close">
-      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
-    </button>
-    <div class="modal__media"><img id="modalImg" src="" alt="" /></div>
-    <div class="modal__body">
-      <div class="modal__meta" id="modalMeta"></div>
-      <h3 class="modal__title" id="modalTitle"></h3>
-      <div class="modal__sub" id="modalSub"></div>
-      <a class="modal__livelink" id="modalLive" href="#" target="_blank" rel="noopener" hidden>
-        <span class="modal__livelink__dot" aria-hidden="true"></span>
-        <span id="modalLiveText"></span>
-        <svg class="modal__livelink__arw" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
-      </a>
-      <div class="modal__tags" id="modalTags"></div>
-      <div class="modal__text" id="modalText"></div>
-      <div class="modal__gallery" id="modalGallery"></div>
-    </div>
-  </div>
-</div>
-
-<!-- CONTACT MODAL -->
-<div class="modal" id="contactModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="contactModalTitle">
-  <div class="modal__backdrop" data-close-contact></div>
-  <div class="modal__panel modal__panel--contact">
-    <button class="modal__close" type="button" data-close-contact aria-label="Close">
-      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
-    </button>
-
-    <div class="cmodal__head" id="contactFormHeader">
-      <div class="modal__meta">Let's Talk</div>
-      <h3 class="modal__title" id="contactModalTitle">Start a conversation.</h3>
-      <p class="cmodal__lead">Tell me about your business and where I can help. I'll reply within 48 hours.</p>
-    </div>
-
-    <form class="cform" id="contactForm" novalidate>
-      <input type="text" name="botcheck" tabindex="-1" autocomplete="off" class="cform__honeypot" aria-hidden="true">
-      <input type="hidden" name="access_key" value="4c0ea886-88c6-4bc9-835f-f8e542860d7b">
-      <input type="hidden" name="subject" value="New inquiry — mohamedfouad.com">
-      <input type="hidden" name="from_name" value="mohamedfouad.com">
-
-      <div class="cform__row">
-        <div class="cform__field">
-          <label for="cf-name">Name <span class="cform__req" aria-hidden="true">*</span></label>
-          <input type="text" id="cf-name" name="name" autocomplete="name" required placeholder="Jane Doe">
-        </div>
-        <div class="cform__field">
-          <label for="cf-email">Email <span class="cform__req" aria-hidden="true">*</span></label>
-          <input type="email" id="cf-email" name="email" autocomplete="email" required placeholder="jane@company.com">
-        </div>
-      </div>
-
-      <div class="cform__field">
-        <label for="cf-phone">Phone</label>
-        <input type="tel" id="cf-phone" name="phone" autocomplete="tel" placeholder="+20 100 000 0000">
-      </div>
-
-      <div class="cform__field">
-        <label>
-          <span>What are you looking for?</span>
-          <span class="cform__hint">Select all that apply</span>
-        </label>
-        <div class="cform__checks">
-          <label class="cform__check"><input type="checkbox" name="services" value="Digital Strategy"><span>Digital Strategy</span></label>
-          <label class="cform__check"><input type="checkbox" name="services" value="Social Media Marketing"><span>Social Media</span></label>
-          <label class="cform__check"><input type="checkbox" name="services" value="Graphic Design"><span>Graphic Design</span></label>
-          <label class="cform__check"><input type="checkbox" name="services" value="Website Development"><span>Website Development</span></label>
-          <label class="cform__check"><input type="checkbox" name="services" value="E-Commerce"><span>E-Commerce</span></label>
-          <label class="cform__check"><input type="checkbox" name="services" value="Marketing Consulting"><span>Marketing Consulting</span></label>
-          <label class="cform__check"><input type="checkbox" name="services" value="SEO Analysis & Strategy"><span>SEO Strategy</span></label>
-          <label class="cform__check"><input type="checkbox" name="services" value="Branding & Identity"><span>Branding & Identity</span></label>
-          <label class="cform__check" style="grid-column:1/-1"><input type="checkbox" name="services" value="Full Package — Marketing Director Engagement"><span>Full package — Marketing Director engagement</span></label>
-        </div>
-      </div>
-
-      <div class="cform__field">
-        <label for="cf-message">Tell me about your business <span class="cform__req" aria-hidden="true">*</span></label>
-        <textarea id="cf-message" name="message" rows="5" required placeholder="Stage of your business, current friction, and the outcome you'd like in the next two quarters."></textarea>
-      </div>
-
-      <div class="cform__error" id="cfError" hidden></div>
-
-      <div class="cform__submit-row">
-        <button type="submit" class="btn btn--primary cform__submit" id="cfSubmit">
-          <span>Send message</span>
-        </button>
-        <p class="cform__assurance">* Required fields. I'll reply within 48 hours.</p>
-      </div>
-    </form>
-
-    <div class="cform__success" id="cfSuccess" hidden>
-      <div class="cform__success__ico">✓</div>
-      <h4>Message sent.</h4>
-      <p>Thanks for reaching out. I'll reply within 48 hours, usually less.</p>
-      <button type="button" class="btn btn--outline" data-close-contact>Close</button>
-    </div>
-  </div>
-</div>
-
-<!-- CASE STUDY — DEJAVU -->
-<div class="cs" id="casestudyDejavu" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="csDejavuTitle">
-  <button class="cs__close" data-close-cs aria-label="Close case study">
-    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
-  </button>
-  <section class="cs__hero">
-    <div class="cs__hero-bg" aria-hidden="true">
-      <div class="hero__blob hero__blob--1"></div><div class="hero__blob hero__blob--2"></div>
-      <div class="hero__blob hero__blob--3"></div><div class="hero__blob hero__blob--4"></div>
-      <div class="hero__aurora"></div><div class="hero__grid"></div><div class="hero__noise"></div>
-    </div>
-    <div class="hero__vignette"></div>
-    <div class="cs__hero-inner">
-      <p class="cs__eye">Case Study · Fashion Retail</p>
-      <h1 class="cs__title" id="csDejavuTitle">Dejavu</h1>
-      <p class="cs__subtitle">Premium footwear, regionally rebuilt.</p>
-      <a class="cs__hero__link" href="https://www.dejavu.shoes" target="_blank" rel="noopener">
-        <span class="cs__hero__link__dot" aria-hidden="true"></span><span>dejavu.shoes</span>
-        <svg class="cs__hero__link__arw" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
-      </a>
-      <p class="cs__intro">A comprehensive brand, digital, and channel rebuild that took Dejavu from a respected local women's footwear label to a category leader across Egypt and the Gulf. Visible in social, e-commerce, retail, and broadcast.</p>
-    </div>
-  </section>
-  <section class="cs__glance">
-    <div class="cs__glance-grid">
-      <div class="g"><span class="g__n">4M+</span><span class="g__l">Social followers across channels</span></div>
-      <div class="g"><span class="g__n">3,000%+</span><span class="g__l">Revenue growth, first month</span></div>
-      <div class="g"><span class="g__n">#1</span><span class="g__l">On Amazon &amp; Google rankings</span></div>
-      <div class="g"><span class="g__n">280%</span><span class="g__l">Engagement lift in 3 months</span></div>
-    </div>
-  </section>
-  <section class="cs__section cs__section--alt">
-    <div class="wrap">
-      <p class="cs__eyebrow">The brief</p>
-      <h2 class="cs__h2">Strong product. Missing system.</h2>
-      <p class="cs__body">Dejavu had product equity and a loyal following in Egypt, but the operational and digital infrastructure hadn't caught up with the brand's ambition. The opportunity: turn strong fundamentals into a regional platform, with the systems, channels, and visibility to match.</p>
-    </div>
-  </section>
-  <div class="cs__band"><div class="cs__band__inner"><div class="cs__band__media"><img src="assets/img/03ab78002e.jpg" alt="Dejavu brand" loading="lazy"></div></div></div>
-  <section class="cs__section">
-    <div class="wrap">
-      <p class="cs__eyebrow">The work</p>
-      <h2 class="cs__h2">Six pillars. One direction.</h2>
-      <div class="cs__pillars">
-        <article class="cs__pillar"><div class="cs__pillar__n">01</div><h3 class="cs__pillar__t">Brand system</h3><p class="cs__pillar__d">Refresh of identity and positioning to support multi-market expansion. Sharper visual language, clearer tone of voice.</p></article>
-        <article class="cs__pillar"><div class="cs__pillar__n">02</div><h3 class="cs__pillar__t">Digital infrastructure</h3><p class="cs__pillar__d">New website and e-commerce stack, purpose-built for speed, conversion, and catalog scale. A dedicated e-commerce warehouse stood up to absorb order volume.</p></article>
-        <article class="cs__pillar"><div class="cs__pillar__n">03</div><h3 class="cs__pillar__t">Performance media</h3><p class="cs__pillar__d">Always-on program across Meta, Google, and TikTok, paired with an influencer roster calibrated to the category and target markets.</p></article>
-        <article class="cs__pillar"><div class="cs__pillar__n">04</div><h3 class="cs__pillar__t">Regional expansion</h3><p class="cs__pillar__d">Brand launch in the UAE, with own e-commerce site plus listings on every major marketplace: Amazon, Noon, Sivvi, and more.</p></article>
-        <article class="cs__pillar"><div class="cs__pillar__n">05</div><h3 class="cs__pillar__t">Mobile app</h3><p class="cs__pillar__d">Native app launched on both App Store and Google Play, closing the loop between discovery and repeat purchase.</p></article>
-        <article class="cs__pillar"><div class="cs__pillar__n">06</div><h3 class="cs__pillar__t">Broadcast &amp; PR</h3><p class="cs__pillar__d">Television and radio presence on flagship networks (MBC, Nile Radio) plus a CSR and PR program to build long-term brand equity.</p></article>
-      </div>
-    </div>
-  </section>
-  <section class="cs__section cs__section--dark">
-    <div class="wrap">
-      <p class="cs__eyebrow">The numbers</p>
-      <h2 class="cs__h2">Category leadership, measured.</h2>
-      <div class="cs__bignums">
-        <div class="cs__bignum"><span class="cs__bignum__n">2.4M</span><span class="cs__bignum__l">Followers on Facebook</span></div>
-        <div class="cs__bignum"><span class="cs__bignum__n">1.6M</span><span class="cs__bignum__l">Followers on Instagram</span></div>
-        <div class="cs__bignum"><span class="cs__bignum__n">3,000%+</span><span class="cs__bignum__l">Revenue growth, first month post-launch</span></div>
-        <div class="cs__bignum"><span class="cs__bignum__n">280%</span><span class="cs__bignum__l">Engagement rate increase in 3 months</span></div>
-        <div class="cs__bignum"><span class="cs__bignum__n">#1</span><span class="cs__bignum__l">On Amazon: Women's Footwear category</span></div>
-        <div class="cs__bignum"><span class="cs__bignum__n">#1</span><span class="cs__bignum__l">Google search: "Women Shoes Egypt"</span></div>
-        <div class="cs__bignum"><span class="cs__bignum__n">#1</span><span class="cs__bignum__l">In sales vs. 40 established offline stores</span></div>
-        <div class="cs__bignum"><span class="cs__bignum__n">#1</span><span class="cs__bignum__l">In followers vs. all direct competitors</span></div>
-      </div>
-    </div>
-  </section>
-  <section class="cs__section cs__section--alt">
-    <div class="wrap">
-      <div style="text-align:center">
-        <p class="cs__eyebrow">Delivered</p>
-        <h2 class="cs__h2" style="margin-inline:auto;max-width:22ch">Everything that shipped with the launch.</h2>
-      </div>
-      <div class="cs__outcomes">
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Dedicated e-commerce warehouse built to handle order volume</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Brand launched in the UAE on Amazon, Noon, Sivvi, and other marketplaces</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Native mobile app shipped on App Store and Google Play</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Television and radio campaigns on MBC, Nile Radio, and other networks</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Corporate Social Responsibility program with earned PR coverage</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Exclusive marketing pushes across every major regional marketplace</span></div>
-      </div>
-    </div>
-  </section>
-  <section class="cs__section">
-    <div class="wrap">
-      <div style="text-align:center">
-        <p class="cs__eyebrow">In market</p>
-        <h2 class="cs__h2" style="margin-inline:auto;max-width:22ch">The product, styled for the story.</h2>
-      </div>
-      <div class="cs__showcase">
-        <div class="cs__showcase__item"><img src="assets/img/03d86e2878.jpg" alt="Dejavu product styling" loading="lazy"></div>
-        <div class="cs__showcase__item"><img src="assets/img/4b70d00a65.jpg" alt="Dejavu product styling" loading="lazy"></div>
-        <div class="cs__showcase__item"><img src="assets/img/b7ce69ba1d.jpg" alt="Dejavu campaign imagery" loading="lazy"></div>
-      </div>
-    </div>
-  </section>
-  <section class="cs__closing">
-    <div class="cs__closing__inner">
-      <h2>Want results like this?</h2>
-      <p>Selective engagements. Long-term partnerships. Measurable outcomes.</p>
-      <div class="cs__closing__cta">
-        <button type="button" class="btn btn--light btn--lg" data-contact>Start a conversation</button>
-        <button class="lnk" type="button" data-close-cs><span>Close case study</span> <span class="lnk__arw">›</span></button>
-      </div>
-    </div>
-  </section>
-</div>
-
-<!-- CASE STUDY — MR. POOL LEAK REPAIR -->
-<div class="cs cs--pool" id="casestudyPool" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="csPoolTitle">
-  <button class="cs__close" data-close-cs aria-label="Close case study">
-    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
-  </button>
-  <section class="cs__hero">
-    <div class="cs__hero-bg" aria-hidden="true">
-      <div class="hero__blob hero__blob--1"></div><div class="hero__blob hero__blob--2"></div>
-      <div class="hero__blob hero__blob--3"></div><div class="hero__blob hero__blob--4"></div>
-      <div class="hero__aurora"></div><div class="hero__grid"></div><div class="hero__noise"></div>
-    </div>
-    <div class="hero__vignette"></div>
-    <div class="cs__hero-inner">
-      <p class="cs__eye">Case Study · Local Service</p>
-      <h1 class="cs__title" id="csPoolTitle">Mr. Pool Leak Repair</h1>
-      <p class="cs__subtitle">Local service, rebuilt as an operation.</p>
-      <a class="cs__hero__link" href="https://www.mrpoolleakrepair.com" target="_blank" rel="noopener">
-        <span class="cs__hero__link__dot" aria-hidden="true"></span><span>mrpoolleakrepair.com</span>
-        <svg class="cs__hero__link__arw" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
-      </a>
-      <p class="cs__intro">A systems-first engagement that took Mr. Pool Leak Repair from a service business running on Google Ads alone into a multi-channel, multi-location lead engine, and then built the operating system underneath it: Jobber running the jobs, GoHighLevel talking to every customer, a custom server connecting the two, seventy bots keeping watch, and one dashboard telling the team what to do next.</p>
-    </div>
-  </section>
-  <section class="cs__glance">
-    <div class="cs__glance-grid">
-      <div class="g"><span class="g__n">9</span><span class="g__l">Service areas across DFW</span></div>
-      <div class="g"><span class="g__n">70</span><span class="g__l">Bots running the back office, all day</span></div>
-      <div class="g"><span class="g__n">24/7</span><span class="g__l">Kathy, the AI receptionist, on every call</span></div>
-      <div class="g"><span class="g__n">550+</span><span class="g__l">Five-star customer reviews</span></div>
-    </div>
-  </section>
-  <section class="cs__section cs__section--alt">
-    <div class="wrap">
-      <p class="cs__eyebrow">The brief</p>
-      <h2 class="cs__h2">Good business. Missing operation.</h2>
-      <p class="cs__body">Mr. Pool Leak Repair had a real performing business: Google Ads and GMB driving inbound, excellent technicians, loyal repeat customers. What it didn't have yet was a system: multi-channel attribution, operational SOPs, training infrastructure, and a content engine built for both search engines and the AI systems reading them. The opportunity: turn a small service business into a scalable operation.</p>
-    </div>
-  </section>
-  <div class="cs__band"><div class="cs__band__inner"><div class="cs__band__media"><img src="assets/img/7e5ffddc91.jpg" alt="Mr. Pool Leak Repair" loading="lazy"></div></div></div>
-  <section class="cs__section">
-    <div class="wrap">
-      <p class="cs__eyebrow">The work</p>
-      <h2 class="cs__h2">Six pillars. One operation.</h2>
-      <div class="cs__pillars">
-        <article class="cs__pillar"><div class="cs__pillar__n">01</div><h3 class="cs__pillar__t">Multi-channel lead engine</h3><p class="cs__pillar__d">Strategy, creative, and media buying across Google Ads, Meta, Yelp, and Bing, with ad copy aligned to landing pages and conversion optimization applied end-to-end.</p></article>
-        <article class="cs__pillar"><div class="cs__pillar__n">02</div><h3 class="cs__pillar__t">Local SEO, nine locations</h3><p class="cs__pillar__d">Nine Google Business Profiles managed across the DFW metroplex, paired with local citation building and NAP (Name, Address, Phone) consistency across top directories, plus the ongoing verification and suspension work most service businesses never get right.</p></article>
-        <article class="cs__pillar"><div class="cs__pillar__n">03</div><h3 class="cs__pillar__t">Knowledge hub</h3><p class="cs__pillar__d">A full technical audit, then dozens of deeply interlinked guides covering leak detection, cost breakdowns, service-area pages, and DIY-vs-professional calls. A deliberate internal-linking architecture distributes topical authority across the site, giving search engines (and AI models reading them) one coherent source to cite.</p></article>
-        <article class="cs__pillar"><div class="cs__pillar__n">04</div><h3 class="cs__pillar__t">A custom operating system</h3><p class="cs__pillar__d">Jobber runs the jobs, GoHighLevel talks to the customer, a purpose-built server connects them, and a fleet of bots keeps watch. An entire CRM, engineered for one business. The full breakdown is below.</p></article>
-        <article class="cs__pillar"><div class="cs__pillar__n">05</div><h3 class="cs__pillar__t">Operations &amp; training</h3><p class="cs__pillar__d">Company-wide systems: SOPs, training programs, and internal knowledge bases for CSR, dispatch, sales, and repair teams, plus active training on call handling and dispatcher workflows.</p></article>
-        <article class="cs__pillar"><div class="cs__pillar__n">06</div><h3 class="cs__pillar__t">LLM &amp; AI search</h3><p class="cs__pillar__d">The knowledge hub doubled as AI-search infrastructure. Structured content, consistent entity signals across the web, and LLM confusion audits, so ChatGPT, Gemini, and their peers cite Mr. Pool, not a competitor.</p></article>
-      </div>
-    </div>
-  </section>
-  <section class="cs__section cs__section--alt">
-    <div class="wrap">
-      <p class="cs__eyebrow">The machine</p>
-      <h2 class="cs__h2">Five parts. One operating system.</h2>
-      <p class="cs__body">Beyond the marketing, an entire CRM was engineered into the business itself: the machinery that carries a customer from first text to paid repair, and tells the team what needs attention along the way.</p>
-      <div class="cs__pillars">
-        <article class="cs__pillar"><div class="cs__pillar__n">01</div><h3 class="cs__pillar__t">Jobber runs the jobs</h3><p class="cs__pillar__d">Customers, quotes, invoices, payments, and the technicians' schedule all live in one place. It is the system of record for the work itself.</p></article>
-        <article class="cs__pillar"><div class="cs__pillar__n">02</div><h3 class="cs__pillar__t">GoHighLevel talks to the customer</h3><p class="cs__pillar__d">Every text and email goes out from here. Calls are answered by Kathy, the AI receptionist, who screens, routes, and takes details when the team is busy. Each customer is tracked on one pipeline, from new lead to paid repair.</p></article>
-        <article class="cs__pillar"><div class="cs__pillar__n">03</div><h3 class="cs__pillar__t">A server ties them together</h3><p class="cs__pillar__d">When something happens in Jobber (a quote goes out, an invoice is paid, a visit is booked), a custom-built server moves the customer forward in GoHighLevel and sends the right text automatically. Zapier covers the few apps that can't talk to each other directly.</p></article>
-        <article class="cs__pillar"><div class="cs__pillar__n">04</div><h3 class="cs__pillar__t">Seventy bots keep watch</h3><p class="cs__pillar__d">About 70 bots run on that server all day. They follow up on quotes, catch missed calls, flag mistakes, check payroll, and track ad spend against paying customers, so the humans only step in where judgment is needed.</p></article>
-        <article class="cs__pillar"><div class="cs__pillar__n">05</div><h3 class="cs__pillar__t">Scout shows the team what's next</h3><p class="cs__pillar__d">One page. What needs attention, and who owns it. Scout is the team's dashboard, and the reason nothing falls through the cracks.</p></article>
-      </div>
-      <p class="cs__body" style="margin-top:clamp(36px,4.5vw,56px);font-weight:500;color:var(--ink)">In one line: Jobber does the work, GoHighLevel talks to the customer, the server connects them, the bots keep watch, and Scout shows the team what to do next.</p>
-    </div>
-  </section>
-  <section class="cs__section cs__section--dark">
-    <div class="wrap">
-      <p class="cs__eyebrow">The system</p>
-      <h2 class="cs__h2">Every channel. One plan.</h2>
-      <div class="cs__bignums">
-        <div class="cs__bignum"><span class="cs__bignum__n">9</span><span class="cs__bignum__l">Google Business Profiles across DFW service areas</span></div>
-        <div class="cs__bignum"><span class="cs__bignum__n">4</span><span class="cs__bignum__l">Paid channels: Google Ads, Meta, Yelp, Bing</span></div>
-        <div class="cs__bignum"><span class="cs__bignum__n" style="font-size:clamp(28px,3.2vw,44px)">Jobber</span><span class="cs__bignum__l">Jobs, quotes, invoices, payments &amp; tech schedule</span></div>
-        <div class="cs__bignum"><span class="cs__bignum__n" style="font-size:clamp(24px,2.8vw,36px)">GoHighLevel</span><span class="cs__bignum__l">Every text, email, call &amp; pipeline stage, with 16+ stage-triggered SMS workflows</span></div>
-        <div class="cs__bignum"><span class="cs__bignum__n">70</span><span class="cs__bignum__l">Bots on a custom server: follow-ups, missed calls, error flags, payroll, ad-spend tracking</span></div>
-        <div class="cs__bignum"><span class="cs__bignum__n" style="font-size:clamp(26px,3vw,40px)">CallRail</span><span class="cs__bignum__l">End-to-end call attribution &amp; tracking</span></div>
-        <div class="cs__bignum"><span class="cs__bignum__n">24/7</span><span class="cs__bignum__l">Kathy: AI receptionist screening, routing &amp; taking messages</span></div>
-        <div class="cs__bignum"><span class="cs__bignum__n" style="font-size:clamp(28px,3.2vw,44px)">Scout</span><span class="cs__bignum__l">One-page team dashboard: what needs attention, who owns it</span></div>
-      </div>
-    </div>
-  </section>
-  <section class="cs__section">
-    <div class="wrap" style="text-align:center">
-      <p class="cs__eyebrow">AI Search</p>
-      <h2 class="cs__h2" style="margin-inline:auto;max-width:22ch">Ask ChatGPT or Gemini yourself.</h2>
-      <div class="cs__proof__card">
-        <div class="cs__proof__prompt">
-          <span class="cs__proof__label">The prompt</span>
-          <p class="cs__proof__q">&ldquo;What's the best pool leak detection company in Dallas?&rdquo;</p>
-        </div>
-        <div class="cs__proof__answer">
-          <div>
-            <span class="cs__proof__label">First result</span>
-            <div class="cs__proof__name">Mr. Pool Leak Repair</div>
-          </div>
-          <span class="cs__proof__badge">Rank #1</span>
-        </div>
-      </div>
-      <p class="cs__proof__context">That's the payoff of the LLM work: confusion audits, consistent data signals across the web, and content structured to be cited by AI assistants, not just ranked by Google.</p>
-    </div>
-  </section>
-  <section class="cs__section cs__section--alt">
-    <div class="wrap">
-      <div style="text-align:center">
-        <p class="cs__eyebrow">Delivered</p>
-        <h2 class="cs__h2" style="margin-inline:auto;max-width:22ch">What shipped into the business.</h2>
-      </div>
-      <div class="cs__outcomes">
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>A complete operating system: Jobber for the work, GoHighLevel for the customer, a custom server connecting the two, Zapier for the apps that can't talk directly</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Kathy, the AI phone receptionist: screens and routes live calls, takes details when the team is unavailable, and emails the office a summary of who called and why</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>About 70 server bots: quote follow-ups, missed-call recovery, error flagging, payroll checks, and ad spend tracked against paying customers</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Scout: a one-page team dashboard showing what needs attention and who owns it</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>16+ stage-triggered SMS workflows for customer updates, quote follow-ups, and warranty callbacks</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Unified paid strategy across Google Ads, Meta, Yelp, and Bing</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>CallRail attribution stack installed across every call source</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Nine Google Business Profiles actively managed across DFW (Dallas, McKinney, Allen, Southlake, Frisco, Carrollton, Fort Worth, Plano, Richardson)</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Local citation building and NAP (Name, Address, Phone) consistency enforced across top online directories</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Knowledge hub with deliberate internal-linking architecture, built to rank on Google and get cited by AI search</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>SOPs, training programs, and knowledge bases for CSR, dispatch, sales, and repair teams</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Technical SEO, backlink acquisition, and service-area landing pages</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>LLM confusion audits and AI-citation optimization across the site</span></div>
-      </div>
-    </div>
-  </section>
-  <section class="cs__section">
-    <div class="wrap">
-      <div style="text-align:center">
-        <p class="cs__eyebrow">In market</p>
-        <h2 class="cs__h2" style="margin-inline:auto;max-width:22ch">The brand, out in Texas.</h2>
-      </div>
-      <div class="cs__showcase">
-        <div class="cs__showcase__item"><img src="assets/img/820040754c.jpg" alt="Mr. Pool Leak Repair in market" loading="lazy"></div>
-        <div class="cs__showcase__item"><img src="assets/img/3407084b31.jpg" alt="Mr. Pool Leak Repair in market" loading="lazy"></div>
-        <div class="cs__showcase__item"><img src="assets/img/75d252b4e5.jpg" alt="Mr. Pool Leak Repair in market" loading="lazy"></div>
-      </div>
-    </div>
-  </section>
-  <section class="cs__closing">
-    <div class="cs__closing__inner">
-      <h2>Want to build something similar?</h2>
-      <p>Selective engagements. Long-term partnerships. Measurable outcomes.</p>
-      <div class="cs__closing__cta">
-        <button type="button" class="btn btn--light btn--lg" data-contact>Start a conversation</button>
-        <button class="lnk" type="button" data-close-cs><span>Close case study</span> <span class="lnk__arw">›</span></button>
-      </div>
-    </div>
-  </section>
-</div>
-
-<!-- CASE STUDY — CUBBIES -->
-<div class="cs cs--cubbies" id="casestudyCubbies" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="csCubbiesTitle">
-  <button class="cs__close" type="button" data-close-cs aria-label="Close case study">
-    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
-  </button>
-  <section class="cs__hero">
-    <div class="cs__hero-bg" aria-hidden="true">
-      <div class="hero__blob hero__blob--1"></div><div class="hero__blob hero__blob--2"></div>
-      <div class="hero__blob hero__blob--3"></div><div class="hero__blob hero__blob--4"></div>
-      <div class="hero__aurora"></div><div class="hero__grid"></div><div class="hero__noise"></div>
-    </div>
-    <div class="hero__vignette"></div>
-    <div class="cs__hero-inner">
-      <p class="cs__eye">Case Study · E-commerce</p>
-      <h1 class="cs__title" id="csCubbiesTitle">Cubbies</h1>
-      <p class="cs__subtitle">A children's brand, launched into market.</p>
-      <a class="cs__hero__link" href="https://www.cubbieseg.com" target="_blank" rel="noopener">
-        <span class="cs__hero__link__dot" aria-hidden="true"></span><span>cubbieseg.com</span>
-        <svg class="cs__hero__link__arw" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
-      </a>
-      <p class="cs__intro">A ground-up launch for an Egyptian baby and toddler fashion brand, digital-first by design and multi-channel from the start. Brand system and Shopify storefront built from scratch, marketplace distribution secured on Homzmart, and the paid, social, SEO, payments, shipping, and automation stack that makes a DTC launch actually work from day one.</p>
-    </div>
-  </section>
-  <section class="cs__glance">
-    <div class="cs__glance-grid">
-      <div class="g"><span class="g__n">2,000+</span><span class="g__l">Orders shipped in 6 months</span></div>
-      <div class="g"><span class="g__n">2</span><span class="g__l">Sales channels: DTC site + Homzmart vendor</span></div>
-      <div class="g"><span class="g__n">60+</span><span class="g__l">Five-star customer reviews</span></div>
-      <div class="g"><span class="g__n" style="font-size:clamp(28px,3.6vw,48px);letter-spacing:-.022em">Shopify</span><span class="g__l">Storefront built from scratch</span></div>
-    </div>
-  </section>
-  <section class="cs__section cs__section--alt">
-    <div class="wrap">
-      <p class="cs__eyebrow">The brief</p>
-      <h2 class="cs__h2">Not a website. A business.</h2>
-      <p class="cs__body">The brief was not to design a storefront. It was to launch a business. Brand, storefront, catalog, payments, shipping, marketing channels, marketplace distribution, customer service, reviews, and the automations tying them together, all standing up at once, in a category where trust with parents is the entire funnel.</p>
-    </div>
-  </section>
-  <div class="cs__band"><div class="cs__band__inner"><div class="cs__band__media"><img src="assets/img/6545469885.jpg" alt="Cubbies" loading="lazy"></div></div></div>
-  <section class="cs__section">
-    <div class="wrap">
-      <p class="cs__eyebrow">The work</p>
-      <h2 class="cs__h2">Seven pillars. One launch.</h2>
-      <div class="cs__pillars">
-        <article class="cs__pillar"><div class="cs__pillar__n">01</div><h3 class="cs__pillar__t">Brand &amp; identity</h3><p class="cs__pillar__d">Full identity system: logo, color, typography, and tone of voice. Built to feel warm and trustworthy without sliding into generic baby-pink territory. Guidelines tight enough to scale across packaging, social, site, and customer service.</p></article>
-        <article class="cs__pillar"><div class="cs__pillar__n">02</div><h3 class="cs__pillar__t">Shopify, built from scratch</h3><p class="cs__pillar__d">Custom storefront built on Shopify, mobile-first for Egyptian shoppers. Category architecture, PDPs, cart, and checkout engineered for conversion in a category that runs on impulse and reassurance.</p></article>
-        <article class="cs__pillar"><div class="cs__pillar__n">03</div><h3 class="cs__pillar__t">Product catalog</h3><p class="cs__pillar__d">Full catalog built from zero: product pages, size guides, care instructions, and the merchandising structure that makes browsing actually work. No placeholder SKUs. A store that reads as an established brand on day one.</p></article>
-        <article class="cs__pillar"><div class="cs__pillar__n">04</div><h3 class="cs__pillar__t">Payments &amp; shipping</h3><p class="cs__pillar__d">Credit card and Visa payment gateway integrated into the storefront, plus end-to-end shipping company API integration. Orders flow from checkout to doorstep without a person rekeying data between three systems.</p></article>
-        <article class="cs__pillar"><div class="cs__pillar__n">05</div><h3 class="cs__pillar__t">Acquisition</h3><p class="cs__pillar__d">Launch-day paid media across Google and Meta, SEO foundation with technical setup and content plan, and a social-first launch calendar with creative calibrated for parents, not algorithms alone.</p></article>
-        <article class="cs__pillar"><div class="cs__pillar__n">06</div><h3 class="cs__pillar__t">Automations &amp; reviews</h3><p class="cs__pillar__d">Email, WhatsApp, and CRM automations connecting every customer touchpoint. Plus a review management program that turns post-purchase happiness into visible social proof on every PDP.</p></article>
-        <article class="cs__pillar"><div class="cs__pillar__n">07</div><h3 class="cs__pillar__t">Marketplace distribution</h3><p class="cs__pillar__d">Onboarded onto Homzmart as a vendor in their Baby Fashion launch section. A second sales channel beyond the DTC site, putting Cubbies in front of an existing marketplace audience with built-in trust signals from day one.</p></article>
-      </div>
-    </div>
-  </section>
-  <section class="cs__section cs__section--alt">
-    <div class="wrap">
-      <div style="text-align:center">
-        <p class="cs__eyebrow">Delivered</p>
-        <h2 class="cs__h2" style="margin-inline:auto;max-width:22ch">What shipped into the business.</h2>
-      </div>
-      <div class="cs__outcomes">
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Complete brand system: identity, guidelines, and voice</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Custom Shopify storefront, mobile-first and conversion-tuned</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Full catalog build: category architecture, PDPs, size and care guides</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Credit card and Visa payment gateway integration</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Shipping company API integration for end-to-end order flow</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Onboarded as a Homzmart vendor in the Baby Fashion launch section</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Launch-day paid media across Google Ads and Meta</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>SEO foundation: technical setup, on-page, content roadmap</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Social launch with original creative system</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Email, WhatsApp, and CRM automation stack connecting every touchpoint</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>Review management program wired into PDPs for visible social proof</span></div>
-        <div class="cs__outcome"><span class="cs__outcome__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span>2,000+ orders shipped in the first 6 months</span></div>
-      </div>
-    </div>
-  </section>
-  <section class="cs__section">
-    <div class="wrap">
-      <div style="text-align:center">
-        <p class="cs__eyebrow">In market</p>
-        <h2 class="cs__h2" style="margin-inline:auto;max-width:22ch">The product, in the catalog.</h2>
-      </div>
-      <div class="cs__showcase">
-        <div class="cs__showcase__item"><img src="assets/img/fa1727e509.jpg" alt="Cubbies product" loading="lazy"></div>
-        <div class="cs__showcase__item"><img src="assets/img/9146268656.jpg" alt="Cubbies product" loading="lazy"></div>
-        <div class="cs__showcase__item"><img src="assets/img/a766ed08ce.jpg" alt="Cubbies product" loading="lazy"></div>
-      </div>
-    </div>
-  </section>
-  <section class="cs__closing">
-    <div class="cs__closing__inner">
-      <h2>Want to launch something like this?</h2>
-      <p>Selective engagements. Long-term partnerships. Measurable outcomes.</p>
-      <div class="cs__closing__cta">
-        <button type="button" class="btn btn--light btn--lg" data-contact>Start a conversation</button>
-        <button class="lnk" type="button" data-close-cs><span>Close case study</span> <span class="lnk__arw">›</span></button>
-      </div>
-    </div>
-  </section>
-</div>
-
-
+      </form></div></section>
+<button type="button" class="top" id="toTop" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<footer class="foot"><span>© 2026 Mohamed Fouad</span><span>Cairo · <span id="clk"></span></span></footer>
+<div class="cp" data-lenis-prevent id="cp-pool" aria-modal="true" role="dialog"><button type="button" class="x" data-close>Close</button><div class="hero2"><div class="t"><div class="mono">Mr. Pool Leak Repair · Dallas, Texas · local service</div><h1 class="s">Ask ChatGPT for the best pool company in Dallas. <i>It names this one.</i></h1></div><div class="im"><img src="assets/img/3407084b31.jpg" alt=""></div></div><div class="nums"><div><b class="s">9</b><span>Service areas across DFW</span></div><div><b class="s">70</b><span>Bots running the back office, all day</span></div><div><b class="s">24/7</b><span>Kathy, the AI receptionist, on every call</span></div><div><b class="s">550+</b><span>Five-star customer reviews</span></div></div><div class="sec"><div class="lab">The brief</div><div><h2 class="s">Good business. <i>Missing operation.</i></h2><p class="lead">A systems-first engagement that took Mr. Pool Leak Repair from a service business running on Google Ads alone into a multi-channel, multi-location lead engine, and then built the operating system underneath it: the field app running the jobs, the CRM talking to every customer, a custom server connecting the two, seventy bots keeping watch, and one dashboard telling the team what to do next.</p><p>Mr. Pool Leak Repair had a real performing business: Google Ads and GMB driving inbound, excellent technicians, loyal repeat customers. What it didn't have yet was a system: multi-channel attribution, operational SOPs, training infrastructure, and a content engine built for both search engines and the AI systems reading them. The opportunity: turn a small service business into a scalable operation.</p></div></div><div class="sec"><div class="lab">The work</div><div><h2 class="s">Six pillars. <i>One operation.</i></h2><div class="pil"><div><span class="mono">01</span><h4>Multi-channel lead engine</h4><p>Strategy, creative, and media buying across Google Ads, Meta, Yelp, and Bing, with ad copy aligned to landing pages and conversion optimization applied end-to-end.</p></div><div><span class="mono">02</span><h4>Local SEO, nine locations</h4><p>Nine Google Business Profiles managed across the DFW metroplex, paired with local citation building and NAP (Name, Address, Phone) consistency across top directories, plus the ongoing verification and suspension work most service businesses never get right.</p></div><div><span class="mono">03</span><h4>Knowledge hub</h4><p>A full technical audit, then dozens of deeply interlinked guides covering leak detection, cost breakdowns, service-area pages, and DIY-vs-professional calls. A deliberate internal-linking architecture distributes topical authority across the site, giving search engines (and AI models reading them) one coherent source to cite.</p></div><div><span class="mono">04</span><h4>A custom operating system</h4><p>the field app runs the jobs, the CRM talks to the customer, a purpose-built server connects them, and a fleet of bots keeps watch. An entire CRM, engineered for one business. The full breakdown is below.</p></div><div><span class="mono">05</span><h4>Operations & training</h4><p>Company-wide systems: SOPs, training programs, and internal knowledge bases for CSR, dispatch, sales, and repair teams, plus active training on call handling and dispatcher workflows.</p></div><div><span class="mono">06</span><h4>LLM & AI search</h4><p>The knowledge hub doubled as AI-search infrastructure. Structured content, consistent entity signals across the web, and LLM confusion audits, so ChatGPT, Gemini, and their peers cite Mr. Pool, not a competitor.</p></div></div></div></div><div class="sec"><div class="lab">The machine</div><div><h2 class="s">Five parts. <i>One operating system.</i></h2><p>Beyond the marketing, an entire CRM was engineered into the business itself: the machinery that carries a customer from first text to paid repair, and tells the team what needs attention along the way.</p><div class="pil"><div><span class="mono">01</span><h4>the field app runs the jobs</h4><p>Customers, quotes, invoices, payments, and the technicians' schedule all live in one place. It is the system of record for the work itself.</p></div><div><span class="mono">02</span><h4>the CRM talks to the customer</h4><p>Every text and email goes out from here. Calls are answered by the receptionist, the AI receptionist, who screens, routes, and takes details when the team is busy. Each customer is tracked on one pipeline, from new lead to paid repair.</p></div><div><span class="mono">03</span><h4>A server ties them together</h4><p>When something happens in the field app (a quote goes out, an invoice is paid, a visit is booked), a custom-built server moves the customer forward in the CRM and sends the right text automatically. a connector layer covers the few apps that can't talk to each other directly.</p></div><div><span class="mono">04</span><h4>Seventy bots keep watch</h4><p>About 70 bots run on that server all day. They follow up on quotes, catch missed calls, flag mistakes, check payroll, and track ad spend against paying customers, so the humans only step in where judgment is needed.</p></div><div><span class="mono">05</span><h4>the team dashboard shows the team what's next</h4><p>One page. What needs attention, and who owns it. the team dashboard is the team's dashboard, and the reason nothing falls through the cracks.</p></div></div><div class="fig"><figure><img src="assets/img/4c7ece04cc.webp" alt="" style="max-width:46%"><figcaption><b>The receptionist</b>Wednesday, 7:42 AM. A customer in Plano texts in.</figcaption></figure><figure><img src="assets/img/a19596a5db.webp" alt="" style="max-width:46%"><figcaption><b>The visit day</b>Detection, approval by text, repair, $815 on the card.</figcaption></figure></div></div></div><div class="sec"><div class="lab">The system</div><div><h2 class="s">Every channel. <i>One plan.</i></h2><div class="ng"><div><b class="s">9</b><span>Google Business Profiles across DFW service areas</span></div><div><b class="s">4</b><span>Paid channels: Google Ads, Meta, Yelp, Bing</span></div><div><b class="s">70</b><span>Bots on a custom server: follow-ups, missed calls, error flags, payroll, ad-spend tracking</span></div><div><b class="s">24/7</b><span>Kathy: AI receptionist screening, routing & taking messages</span></div></div></div></div><div class="sec"><div class="lab">AI search</div><div><h2 class="s">Ask ChatGPT or Gemini <i>yourself.</i></h2><p>That's the payoff of the LLM work: confusion audits, consistent data signals across the web, and content structured to be cited by AI assistants, not just ranked by Google.</p><div class="fig one"><figure><img src="assets/img/ae4f7a7b58.webp" alt=""><figcaption><b>ChatGPT</b>Best pool leak detection company in Dallas: Mr. Pool first</figcaption></figure><figure><img src="assets/img/7947460811.webp" alt=""><figcaption><b>Google</b>First in the map pack</figcaption></figure><figure><img src="assets/img/63259ae992.webp" alt=""><figcaption><b>Rank tracker</b>Rank 1 on six keywords</figcaption></figure></div></div></div><div class="sec"><div class="lab">Delivered</div><div><h2 class="s">What shipped <i>into the business.</i></h2><ul class="outs"><li>A complete operating system: the field app for the work, the CRM for the customer, a custom server connecting the two, a connector layer for the apps that can't talk directly</li><li>The AI phone receptionist: screens and routes live calls, takes details when the team is unavailable, and emails the office a summary of who called and why</li><li>About 70 server bots: quote follow-ups, missed-call recovery, error flagging, payroll checks, and ad spend tracked against paying customers</li><li>A one-page team dashboard showing what needs attention and who owns it</li><li>16+ stage-triggered SMS workflows for customer updates, quote follow-ups, and warranty callbacks</li><li>Unified paid strategy across Google Ads, Meta, Yelp, and Bing</li><li>call tracking attribution stack installed across every call source</li><li>Nine Google Business Profiles actively managed across DFW (Dallas, McKinney, Allen, Southlake, Frisco, Carrollton, Fort Worth, Plano, Richardson)</li><li>Local citation building and NAP (Name, Address, Phone) consistency enforced across top online directories</li><li>Knowledge hub with deliberate internal-linking architecture, built to rank on Google and get cited by AI search</li><li>SOPs, training programs, and knowledge bases for CSR, dispatch, sales, and repair teams</li><li>Technical SEO, backlink acquisition, and service-area landing pages</li><li>LLM confusion audits and AI-citation optimization across the site</li></ul></div></div><div class="pn"><button type="button" class="pnb" data-case="cardoo"><span class="mono">Previous</span><b class="s">Cardoo</b></button><button type="button" class="pnb r" data-case="dejavu"><span class="mono">Next</span><b class="s">Dejavu</b></button></div></div><div class="cp" data-lenis-prevent id="cp-dejavu" aria-modal="true" role="dialog"><button type="button" class="x" data-close>Close</button><div class="hero2"><div class="t"><div class="mono">Dejavu · Egypt and the UAE · fashion</div><h1 class="s">A respected label, rebuilt into <i>the leader in two markets.</i></h1></div><div class="im"><img src="assets/img/03d86e2878.jpg" alt=""></div></div><div class="nums"><div><b class="s">4M+</b><span>Social followers across channels</span></div><div><b class="s">3,000%+</b><span>Revenue growth, first month</span></div><div><b class="s">#1</b><span>On Amazon & Google rankings</span></div><div><b class="s">280%</b><span>Engagement lift in 3 months</span></div></div><div class="sec"><div class="lab">The brief</div><div><h2 class="s">Strong product. <i>Missing system.</i></h2><p class="lead">A comprehensive brand, digital, and channel rebuild that took Dejavu from a respected local women's footwear label to a category leader across Egypt and the Gulf. Visible in social, e-commerce, retail, and broadcast.</p><p>Dejavu had product equity and a loyal following in Egypt, but the operational and digital infrastructure hadn't caught up with the brand's ambition. The opportunity: turn strong fundamentals into a regional platform, with the systems, channels, and visibility to match.</p></div></div><div class="sec"><div class="lab">The work</div><div><h2 class="s">Six pillars. <i>One direction.</i></h2><div class="pil"><div><span class="mono">01</span><h4>Brand system</h4><p>Refresh of identity and positioning to support multi-market expansion. Sharper visual language, clearer tone of voice.</p></div><div><span class="mono">02</span><h4>Digital infrastructure</h4><p>New website and e-commerce stack, purpose-built for speed, conversion, and catalog scale. A dedicated e-commerce warehouse stood up to absorb order volume.</p></div><div><span class="mono">03</span><h4>Performance media</h4><p>Always-on program across Meta, Google, and TikTok, paired with an influencer roster calibrated to the category and target markets.</p></div><div><span class="mono">04</span><h4>Regional expansion</h4><p>Brand launch in the UAE, with own e-commerce site plus listings on every major marketplace: Amazon, Noon, Sivvi, and more.</p></div><div><span class="mono">05</span><h4>Mobile app</h4><p>Native app launched on both App Store and Google Play, closing the loop between discovery and repeat purchase.</p></div><div><span class="mono">06</span><h4>Broadcast & PR</h4><p>Television and radio presence on flagship networks (MBC, Nile Radio) plus a CSR and PR program to build long-term brand equity.</p></div></div></div></div><div class="sec"><div class="lab">The numbers</div><div><h2 class="s">Category leadership, <i>measured.</i></h2><div class="ng"><div><b class="s">2.4M</b><span>Followers on Facebook</span></div><div><b class="s">1.6M</b><span>Followers on Instagram</span></div><div><b class="s">3,000%+</b><span>Revenue growth, first month post-launch</span></div><div><b class="s">280%</b><span>Engagement rate increase in 3 months</span></div><div><b class="s">#1</b><span>On Amazon: Women's Footwear category</span></div><div><b class="s">#1</b><span>Google search: "Women Shoes Egypt"</span></div><div><b class="s">#1</b><span>In sales vs. 40 established offline stores</span></div><div><b class="s">#1</b><span>In followers vs. all direct competitors</span></div></div></div></div><div class="sec"><div class="lab">In market</div><div><h2 class="s">Two markets, <i>one brand.</i></h2><div class="fig"><figure><img src="assets/img/b7ce69ba1d.jpg" alt="" style=""><figcaption><b>2.4M on Facebook</b>Egypt’s leading brand in ladies’ footwear and bags</figcaption></figure><figure><img src="assets/img/2d8c5cf1df.webp" alt="" style="max-width:52%"><figcaption><b>The app</b>App Store and Google Play, five stars</figcaption></figure><figure><img src="assets/img/03d86e2878.jpg" alt="" style=""><figcaption><b>Campaign</b>The tulip series</figcaption></figure><figure><img src="assets/img/4b70d00a65.jpg" alt="" style=""><figcaption><b>Campaign</b>The tulip series</figcaption></figure></div></div></div><div class="sec"><div class="lab">Delivered</div><div><h2 class="s">What shipped <i>into the business.</i></h2><ul class="outs"><li>Dedicated e-commerce warehouse built to handle order volume</li><li>Brand launched in the UAE on Amazon, Noon, Sivvi, and other marketplaces</li><li>Native mobile app shipped on App Store and Google Play</li><li>Television and radio campaigns on MBC, Nile Radio, and other networks</li><li>Corporate Social Responsibility program with earned PR coverage</li><li>Exclusive marketing pushes across every major regional marketplace</li></ul></div></div><div class="pn"><button type="button" class="pnb" data-case="pool"><span class="mono">Previous</span><b class="s">Mr. Pool Leak Repair</b></button><button type="button" class="pnb r" data-case="cubbies"><span class="mono">Next</span><b class="s">Cubbies</b></button></div></div><div class="cp" data-lenis-prevent id="cp-cubbies" aria-modal="true" role="dialog"><button type="button" class="x" data-close>Close</button><div class="hero2"><div class="t"><div class="mono">Cubbies · Egypt · children’s wear</div><h1 class="s">From nothing to a brand <i>that ships every day.</i></h1></div><div class="im"><img src="assets/img/fa1727e509.jpg" alt=""></div></div><div class="nums"><div><b class="s">2,000+</b><span>Orders shipped in 6 months</span></div><div><b class="s">2</b><span>Sales channels: DTC site + Homzmart vendor</span></div><div><b class="s">60+</b><span>Five-star customer reviews</span></div></div><div class="sec"><div class="lab">The brief</div><div><h2 class="s">Not a website. <i>A business.</i></h2><p class="lead">A ground-up launch for an Egyptian baby and toddler fashion brand, digital-first by design and multi-channel from the start. Brand system and Shopify storefront built from scratch, marketplace distribution secured on Homzmart, and the paid, social, SEO, payments, shipping, and automation stack that makes a DTC launch actually work from day one.</p><p>The brief was not to design a storefront. It was to launch a business. Brand, storefront, catalog, payments, shipping, marketing channels, marketplace distribution, customer service, reviews, and the automations tying them together, all standing up at once, in a category where trust with parents is the entire funnel.</p></div></div><div class="sec"><div class="lab">The work</div><div><h2 class="s">Seven pillars. <i>One launch.</i></h2><div class="pil"><div><span class="mono">01</span><h4>Brand & identity</h4><p>Full identity system: logo, color, typography, and tone of voice. Built to feel warm and trustworthy without sliding into generic baby-pink territory. Guidelines tight enough to scale across packaging, social, site, and customer service.</p></div><div><span class="mono">02</span><h4>Shopify, built from scratch</h4><p>Custom storefront built on Shopify, mobile-first for Egyptian shoppers. Category architecture, PDPs, cart, and checkout engineered for conversion in a category that runs on impulse and reassurance.</p></div><div><span class="mono">03</span><h4>Product catalog</h4><p>Full catalog built from zero: product pages, size guides, care instructions, and the merchandising structure that makes browsing actually work. No placeholder SKUs. A store that reads as an established brand on day one.</p></div><div><span class="mono">04</span><h4>Payments & shipping</h4><p>Credit card and Visa payment gateway integrated into the storefront, plus end-to-end shipping company API integration. Orders flow from checkout to doorstep without a person rekeying data between three systems.</p></div><div><span class="mono">05</span><h4>Acquisition</h4><p>Launch-day paid media across Google and Meta, SEO foundation with technical setup and content plan, and a social-first launch calendar with creative calibrated for parents, not algorithms alone.</p></div><div><span class="mono">06</span><h4>Automations & reviews</h4><p>Email, WhatsApp, and CRM automations connecting every customer touchpoint. Plus a review management program that turns post-purchase happiness into visible social proof on every PDP.</p></div><div><span class="mono">07</span><h4>Marketplace distribution</h4><p>Onboarded onto Homzmart as a vendor in their Baby Fashion launch section. A second sales channel beyond the DTC site, putting Cubbies in front of an existing marketplace audience with built-in trust signals from day one.</p></div></div></div></div><div class="sec"><div class="lab">In market</div><div><h2 class="s">Live, <i>and selling.</i></h2><div class="fig"><figure><img src="assets/img/15822f18cf.webp" alt="" style=""><figcaption><b>cubbieseg.com</b>Black Friday campaign</figcaption></figure><figure><img src="assets/img/ec1788a9ca.webp" alt="" style=""><figcaption><b>Reviews</b>4.96 across 60+</figcaption></figure><figure><img src="assets/img/fa1727e509.jpg" alt="" style=""><figcaption><b>Product</b>The first winter edit</figcaption></figure><figure><img src="assets/img/9146268656.jpg" alt="" style=""><figcaption><b>Product</b>Autumn, winter</figcaption></figure></div></div></div><div class="sec"><div class="lab">Delivered</div><div><h2 class="s">What shipped <i>into the business.</i></h2><ul class="outs"><li>Complete brand system: identity, guidelines, and voice</li><li>Custom Shopify storefront, mobile-first and conversion-tuned</li><li>Full catalog build: category architecture, PDPs, size and care guides</li><li>Credit card and Visa payment gateway integration</li><li>Shipping company API integration for end-to-end order flow</li><li>Onboarded as a Homzmart vendor in the Baby Fashion launch section</li><li>Launch-day paid media across Google Ads and Meta</li><li>SEO foundation: technical setup, on-page, content roadmap</li><li>Social launch with original creative system</li><li>Email, WhatsApp, and CRM automation stack connecting every touchpoint</li><li>Review management program wired into PDPs for visible social proof</li><li>2,000+ orders shipped in the first 6 months</li></ul></div></div><div class="pn"><button type="button" class="pnb" data-case="dejavu"><span class="mono">Previous</span><b class="s">Dejavu</b></button><button type="button" class="pnb r" data-case="samena"><span class="mono">Next</span><b class="s">Samena Stores</b></button></div></div><div class="cp" data-lenis-prevent id="cp-jet-setter" aria-modal="true" role="dialog"><button type="button" class="x" data-close>Close</button><div class="hero2 txt"><div class="t"><div class="mono">Jet Setter · Canada · Travel & Accessories</div><h1 class="s">Jet Setter</h1></div></div><div class="nums"><div><b class="s">3</b><span>phases, foundation to scale</span></div><div><b class="s">7</b><span>channels in play</span></div><div><b class="s">Canada</b><span>market</span></div></div><div class="sec"><div class="lab">The work</div><div><h2 class="s">What <i>changed.</i></h2><p>A Canadian travel and accessories brand needed a complete digital lead engine, not just a storefront. Work started with target-audience analysis and market research (travel and adventure buyers, sustainability-minded shoppers, the tech-integrated travel accessories segment), followed by competitor analysis to identify where the brand could realistically win.</p><p>From there: a disciplined social program with content calendars and visual/video creative; an SEO program across keyword research, on-page optimization, and service-area pages; Google Business Profile launch and optimization for local discovery; Google and Facebook lead-generation campaigns feeding the funnel; and a Klaviyo-powered email program (weekly newsletter plus sign-up incentives) closing the loop between first touch and repeat purchase.</p><p>The engagement ran on an explicit trajectory: foundation and initial optimization, then expansion and engagement, then optimization and scaling, with web-traffic, social-engagement, and sales goals defined at each phase.</p><div class="tags"><span>Market research</span><span>Social</span><span>Klaviyo</span><span>SEO</span><span>Google Ads</span><span>Meta Ads</span><span>GBP</span></div></div></div><div class="pn"><button type="button" class="pnb" data-case="samena"><span class="mono">Previous</span><b class="s">Samena Stores</b></button><button type="button" class="pnb r" data-case="rejuvalyfe"><span class="mono">Next</span><b class="s">Rejuvalyfe</b></button></div></div><div class="cp" data-lenis-prevent id="cp-rejuvalyfe" aria-modal="true" role="dialog"><button type="button" class="x" data-close>Close</button><div class="hero2 txt"><div class="t"><div class="mono">Rejuvalyfe · Costa Rica · Wellness · Anti-Aging</div><h1 class="s">Rejuvalyfe</h1></div></div><div class="nums"><div><b class="s">2,000</b><span>leads across the Costa Rica portfolio</span></div><div><b class="s">EN/ES</b><span>bilingual</span></div><div><b class="s">0</b><span>compliance incidents</span></div></div><div class="sec"><div class="lab">The work</div><div><h2 class="s">What <i>changed.</i></h2><p>Rejuvalyfe is an anti-aging clinic competing in a category where trust is the entire buying decision. The engagement sat inside a broader four-brand portfolio spanning legal, healthcare, and tech, all running on unified marketing infrastructure, each needing its own voice, compliance posture, and audience strategy.</p><p>The work: a bilingual English/Spanish website tuned for consultations and trust signals; a full attribution stack with Google Tag Manager, Meta Pixel, and custom UTMs; paid media across Meta, Google, LinkedIn, YouTube, and TikTok; a content program across social, blog, and educational material, calibrated to medical-sector advertising compliance; and WhatsApp, email, and CRM automation closing the loop between inquiry and booking.</p><p>Across the portfolio, the work generated 2,000+ qualified leads, supported by tailored marketing calendars, monthly reporting and competitor research, team management across media buyers, designers, developers and copywriters, and direct advisory to executive leadership on growth direction and regional targeting across the US and Costa Rica.</p><div class="tags"><span>Bilingual EN/ES</span><span>Paid social</span><span>GTM + Pixel</span><span>WhatsApp</span><span>CRM</span><span>Medical compliance</span></div></div></div><div class="pn"><button type="button" class="pnb" data-case="jet-setter"><span class="mono">Previous</span><b class="s">Jet Setter</b></button><button type="button" class="pnb r" data-case="kate-kamrani"><span class="mono">Next</span><b class="s">Kate Kamrani</b></button></div></div><div class="cp" data-lenis-prevent id="cp-kate-kamrani" aria-modal="true" role="dialog"><button type="button" class="x" data-close>Close</button><div class="hero2 txt"><div class="t"><div class="mono">Kate Kamrani · United States · Real Estate</div><h1 class="s">Kate Kamrani</h1></div></div><div class="nums"><div><b class="s">Minutes</b><span>from inquiry to the agent</span></div><div><b class="s">Listings</b><span>first site</span></div><div><b class="s">US</b><span>market</span></div></div><div class="sec"><div class="lab">The work</div><div><h2 class="s">What <i>changed.</i></h2><p>Kate Kamrani represents an established US real estate practice where the listings book is the product, and the lead engine has to match the caliber of the properties. The engagement sat inside a broader multi-brand portfolio running on shared infrastructure, adapted for the high-intent, high-consideration pattern of real estate.</p><p>The build: a listings-first website tuned for speed and conversion; a full attribution stack with Google Tag Manager, Meta Pixel, and custom UTM parameters; paid campaigns across Meta, Google, LinkedIn, and YouTube targeting qualified buyer and seller intent; an SEO program across service pages and blog content; and an editorial newsletter keeping the sphere of influence warm between transactions. CRM and automated follow-up routed qualified prospects to the agent within minutes of intent, not hours.</p><p>Across the four-brand portfolio, 2,000+ qualified leads were generated, paired with tailored marketing calendars, monthly reporting, team management across media buyers, designers, developers and copywriters, and executive-level advisory on regional expansion and positioning.</p><div class="tags"><span>Listings-first site</span><span>Paid social</span><span>GTM + Pixel</span><span>Newsletter</span><span>CRM</span><span>SEO</span></div></div></div><div class="pn"><button type="button" class="pnb" data-case="rejuvalyfe"><span class="mono">Previous</span><b class="s">Rejuvalyfe</b></button><button type="button" class="pnb r" data-case="unilegal"><span class="mono">Next</span><b class="s">Unilegal</b></button></div></div><div class="cp" data-lenis-prevent id="cp-samena" aria-modal="true" role="dialog"><button type="button" class="x" data-close>Close</button><div class="hero2 txt"><div class="t"><div class="mono">Samena Stores · Saudi Arabia · E-commerce</div><h1 class="s">Samena Stores</h1></div></div><div class="nums"><div><b class="s">300%</b><span>sales lift in month one</span></div><div><b class="s">40,000+</b><span>SKUs migrated</span></div><div><b class="s">Shopify</b><span>from scratch</span></div></div><div class="sec"><div class="lab">The work</div><div><h2 class="s">What <i>changed.</i></h2><p>Samena Stores, a Saudi Arabian retailer, was running on an underperforming Magento site that was throttling growth. The engagement started by migrating the brand off Magento entirely and building a new storefront from scratch on Shopify, re-architected for speed, conversion, and operational scale in the Saudi market.</p><p>The Shopify build was end-to-end: custom storefront, integration of payment gateways, courier services, and the third-party apps the business runs on. 40,000+ SKUs uploaded and optimized inside two months, with technical tuning to keep the site fast despite the catalog size. Arabic localization was done properly, not auto-translated, calibrated to land with the Saudi audience and protect brand credibility.</p><p>First month post-relaunch: a 300% sales increase. Social followed: brand identity rebuild across channels, a content calendar tuned to the audience, media buying, contests, and UGC campaigns adding 12,000 followers in two months. Customer service got its own system: documented SOPs and scenarios for CSRs, crisis-management protocols for brand attacks, and retargeting plus customer-survey loops to turn first-time buyers into repeat ones.</p><div class="tags"><span>Shopify (from scratch)</span><span>Magento migration</span><span>40k+ SKUs</span><span>Arabic localization</span><span>Social</span><span>Media buying</span><span>CX & retention</span></div></div></div><div class="pn"><button type="button" class="pnb" data-case="cubbies"><span class="mono">Previous</span><b class="s">Cubbies</b></button><button type="button" class="pnb r" data-case="jet-setter"><span class="mono">Next</span><b class="s">Jet Setter</b></button></div></div><div class="cp" data-lenis-prevent id="cp-unilegal" aria-modal="true" role="dialog"><button type="button" class="x" data-close>Close</button><div class="hero2 txt"><div class="t"><div class="mono">Unilegal · Costa Rica · Legal</div><h1 class="s">Unilegal</h1></div></div><div class="nums"><div><b class="s">CPC</b><span>measured per case</span></div><div><b class="s">EN/ES</b><span>bilingual</span></div><div><b class="s">Costa Rica</b><span>market</span></div></div><div class="sec"><div class="lab">The work</div><div><h2 class="s">What <i>changed.</i></h2><p>Unilegal is a Central American legal firm where credibility and discretion are the product. The engagement sat inside a broader four-brand portfolio (healthcare, real estate, tech, legal) each running on shared infrastructure but each with its own voice, compliance posture, and audience.</p><p>What shipped: a bilingual English/Spanish website engineered for trust and consultation booking; paid media across Meta, Google, LinkedIn, YouTube, and TikTok targeting high-intent legal queries; a tracking stack with Google Tag Manager, Meta Pixel, and custom UTM parameters for precise cost-per-qualified-inquiry attribution; SEO across bilingual landing pages, blog, and service content; automated follow-up across email, WhatsApp, and CRM; and all creative vetted for the advertising standards required in legal.</p><p>Across the four-brand portfolio, 2,000+ qualified leads were generated, paired with tailored marketing calendars, monthly reporting and competitor research, team management across media buyers, designers, developers and copywriters, and direct advisory to executive leadership on growth direction and regional targeting across the US and Costa Rica.</p><div class="tags"><span>Bilingual EN/ES</span><span>Paid social</span><span>GTM + Pixel</span><span>SEO</span><span>WhatsApp</span><span>Legal compliance</span></div></div></div><div class="pn"><button type="button" class="pnb" data-case="kate-kamrani"><span class="mono">Previous</span><b class="s">Kate Kamrani</b></button><button type="button" class="pnb r" data-case="cardoo"><span class="mono">Next</span><b class="s">Cardoo</b></button></div></div><div class="cp" data-lenis-prevent id="cp-cardoo" aria-modal="true" role="dialog"><button type="button" class="x" data-close>Close</button><div class="hero2 txt"><div class="t"><div class="mono">Cardoo · Egypt · Consumer Electronics</div><h1 class="s">Cardoo</h1></div></div><div class="nums"><div><b class="s">1</b><span>month to sell out</span></div><div><b class="s">v.3</b><span>Ear Buds launch</span></div><div><b class="s">Egypt</b><span>market</span></div></div><div class="sec"><div class="lab">The work</div><div><h2 class="s">What <i>changed.</i></h2><p>Cardoo shipped Ear Buds v.3 into a crowded Egyptian consumer-tech market. The engagement treated the launch as a product, not a press moment. It started with market research, pricing strategy, and competitive analysis to position the drop before a single ad ran.</p><p>The build: a dedicated landing page engineered for conversion; a user guide designed for clear product understanding; social announcements calibrated to build anticipation in the weeks leading up to drop; a media-buying operation led end-to-end across Meta, Google, and TikTok; and tech-reviewer partnerships secured for product placements and credible third-party reviews.</p><p>Distribution went wide (Amazon, Vodafone, and every major retailer) with an exclusive pre-launch via ValU. Ear Buds v.3 sold out within one month of release.</p><div class="tags"><span>Market research</span><span>Pricing</span><span>Landing page</span><span>Media buying</span><span>Reviewer partnerships</span><span>Retail</span></div></div></div><div class="pn"><button type="button" class="pnb" data-case="unilegal"><span class="mono">Previous</span><b class="s">Unilegal</b></button><button type="button" class="pnb r" data-case="pool"><span class="mono">Next</span><b class="s">Mr. Pool Leak Repair</b></button></div></div>
 <script>
 (function(){
 /* Inside an iframe (Google Sites embeds, for example) fixed overlays are measured against the
@@ -3110,76 +2586,37 @@ init('contact-forms', function(){
 
 })();
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
 <script>
 (function(){
-  const L = {"shopify": "assets/img/48f0794683.png", "gohighlevel": "assets/img/575179ef5e.png", "higgsfield": "assets/img/137e625076.png", "linkedin": "assets/img/13e8ecd1cc.png", "google": "assets/img/bf224059bf.png", "anthropic": "assets/img/f47e712a36.png", "microsoft": "assets/img/0ebfbec095.png", "hubspot": "assets/img/092bb398f0.png", "moco": "assets/img/759106b5ec.svg"};
-  const items = [
-    ['shopify','', 'Shopify', 'Partner', 'partner', 'Storefronts built, migrated and scaled on the platform most of my e-commerce work runs on, plus a studio that ships themes and apps for it.', ['Theme in review at the Theme Store','Stores from scratch','Platform migrations','40,000-SKU catalogs']],
-    ['gohighlevel','', 'GoHighLevel', 'Affiliate', 'partner', 'The CRM behind every text, call and pipeline stage in the systems I ship.', ['AI receptionist','16+ stage-triggered workflows','Lead-to-cash pipelines']],
-    ['higgsfield','sq', 'Higgsfield', 'Affiliate', 'partner', 'AI video for the motion creative that social and paid media now run on.', ['Launch creative','Social & paid motion','Product video']],
-    ['linkedin','', 'LinkedIn', 'Marketing Insider', 'partner', 'Certified on the platform where B2B pipelines are built.', ['Marketing Insider','Marketing Strategy','Marketing Solutions Fundamentals']],
-    ['google','', 'Google', 'Certified', 'cert', 'Search, performance and measurement, certified end to end.', ['Search Ads','AI-Powered Performance Ads','Google Analytics 4','Analytics IQ','Digital Marketing']],
-    ['anthropic','sq', 'Anthropic', 'Certified', 'cert', 'The models behind the AI intake, qualification and spam filtering I build.', ['Claude Platform 101','LLM-driven intake','AI search optimization']],
-    ['microsoft','', 'Microsoft', 'Certified', 'cert', 'Generative AI applied to marketing operations.', ['Generative AI for Marketing']],
-    ['hubspot','sq', 'HubSpot', 'Certified', 'cert', 'Inbound and CRM fundamentals on the platform I run for B2B clients.', ['Digital Marketing','CRM']]
-  ];
-  const N = items.length, sel = document.getElementById('select'), dots = document.getElementById('dots'); let bar = null;
-  sel.innerHTML = items.map((it, i) => '<article class="plate" data-i="' + i + '" aria-label="' + it[2] + ' · ' + it[3] + '">' +
-    '<div class="plate__logo"><img class="' + it[1] + '" src="' + L[it[0]] + '" alt="' + it[2] + '"></div>' +
-    '<div class="plate__head"><div class="plate__name">' + it[2] + '</div><span class="plate__rel' + (it[4] === 'cert' ? ' cert' : '') + '">' + it[3] + '</span></div>' +
-    '<p class="plate__means">' + it[5] + '</p>' +
-    '<div class="plate__spec">' + it[6].map((s, k) => '<span' + (k === 0 && it[0] === 'shopify' ? ' class="hot"' : '') + '>' + s + '</span>').join('') + '</div>' +
-    (it[0] === 'shopify' ? '<a class="plate__with" href="https://mocostudio.app" target="_blank" rel="noopener" onclick="event.stopPropagation()">Theme &amp; app studio <img src="' + L.moco + '" alt="Moco Studio"> <span class="arw">↗</span></a>' : '') +
-    '<div class="bar"><i></i></div></article>').join('');
-  dots.innerHTML = items.map((_, i) => '<i role="button" tabindex="0" aria-label="Card ' + (i + 1) + '"></i>').join('');
-  sel.insertAdjacentHTML('beforeend', '<div class="edge edge--l" id="prev" aria-label="Previous"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></span></div><div class="edge edge--r" id="next" aria-label="Next"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></span></div>');
-  const count = document.getElementById('count');
-  const plates = Array.from(sel.querySelectorAll('.plate')), ds = Array.from(dots.children);
-  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches, DUR = 4200;
-  let cur = 0, t0 = performance.now(), paused = false;
-  const render = () => { plates.forEach((p, i) => { let d = i - cur; if(d > N / 2) d -= N; if(d < -N / 2) d += N; p.dataset.pos = Math.abs(d) <= 2 ? String(d) : 'x'; });
-    ds.forEach((d, i) => { d.classList.toggle('on', i === cur); d.classList.toggle('done', i < cur); d.style.setProperty('--p', '0%'); });
-    count.innerHTML = '<b>' + String(cur + 1).padStart(2, '0') + '</b> / ' + String(N).padStart(2, '0'); };
-  const go = n => { cur = (n + N) % N; t0 = performance.now(); render(); };
-  let prog = 0;
-  const tick = now => { if(!paused && !reduced){ prog = (now - t0) / DUR; ds[cur].style.setProperty('--p', Math.min(100, prog * 100) + '%'); if(prog >= 1) go(cur + 1); } requestAnimationFrame(tick); };
-  render(); requestAnimationFrame(tick);
-  sel.addEventListener('click', e => { if(e.target.closest('#prev')) return go(cur - 1); if(e.target.closest('#next')) return go(cur + 1); const p = e.target.closest('.plate'); if(p && +p.dataset.i !== cur) go(+p.dataset.i); });
-  ds.forEach((d, i) => { d.addEventListener('click', () => go(i)); d.addEventListener('keydown', e => { if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); go(i); } }); });
-  sel.addEventListener('keydown', e => { if(e.key === 'ArrowRight') go(cur + 1); if(e.key === 'ArrowLeft') go(cur - 1); });
-  const pause = v => { if(v === paused) return; paused = v; sel.classList.toggle('paused', v); if(!v) t0 = performance.now() - Math.min(1, prog) * DUR; };
-  sel.addEventListener('pointerenter', () => pause(true)); sel.addEventListener('pointerleave', () => pause(false));
+const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches, G=window.gsap;
+if(G&&window.ScrollTrigger) G.registerPlugin(ScrollTrigger);
+let lenis=null; if(window.Lenis&&!reduced){lenis=new Lenis({lerp:.08}); const raf=t=>{lenis.raf(t);requestAnimationFrame(raf);}; requestAnimationFrame(raf); if(window.ScrollTrigger) lenis.on('scroll',ScrollTrigger.update);}
+document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{const t=document.querySelector(a.getAttribute('href'));if(!t)return;e.preventDefault();lenis?lenis.scrollTo(t):t.scrollIntoView({behavior:'smooth'});}));
+const f=new Intl.DateTimeFormat('en-GB',{timeZone:'Africa/Cairo',hour:'2-digit',minute:'2-digit',hour12:false}); const clk=document.getElementById('clk'); const tk=()=>clk.textContent=f.format(new Date()); tk(); setInterval(tk,30000);
+/* cursor */
+const cur=document.getElementById('cur'); let cx=0,cy=0,px=0,py=0; addEventListener('pointermove',e=>{px=e.clientX;py=e.clientY; const t=e.target.closest('.wk, .al button, .cp .next .btn'); const l=e.target.closest('a, button, .cform__check, input, textarea'); cur.classList.toggle('open',!!t); cur.classList.toggle('link',!t&&!!l);});
+(function cm(){cx+=(px-cx)*.2;cy+=(py-cy)*.2;cur.style.transform='translate('+cx+'px,'+cy+'px) translate(-50%,-50%)';requestAnimationFrame(cm);})();
+/* preloader: counter then the split image opens */
+const pre=document.getElementById('pre'), preN=document.getElementById('preN'); let n=0;
+function done(){ if(G){ const halves=pre.querySelectorAll('.img div'); G.timeline().to(preN,{opacity:0,duration:.4}).to(halves[0],{xPercent:-100,duration:1,ease:'power3.inOut'},'<').to(halves[1],{xPercent:100,duration:1,ease:'power3.inOut'},'<').to(pre,{opacity:0,duration:.5,onComplete:()=>pre.remove()}).to('.home h1 .l>span',{y:0,duration:1.1,stagger:.1,ease:'power3.out'},'-=.6'); } else { pre.remove(); document.querySelectorAll('.home h1 .l>span').forEach(s=>s.style.transform='none'); } }
+const count=()=>{ n=Math.min(100,n+Math.max(1,Math.round((100-n)*.08))); preN.textContent=n; if(n<100) setTimeout(count,45); else setTimeout(done,250); };
+if(reduced){pre.remove();document.querySelectorAll('.home h1 .l>span').forEach(s=>s.style.transform='none');} else setTimeout(count,300);
+/* reel: frames cut on a rhythm; idle "waiting mode" slows it and lets the page breathe */
+const home=document.getElementById('home'); let idle=false, lastInput=performance.now();
+['pointermove','wheel','keydown','touchstart','scroll'].forEach(ev=>addEventListener(ev,()=>{lastInput=performance.now(); if(idle){idle=false;home.classList.remove('idle');}},{passive:true}));
+setInterval(()=>{ if(!idle&&performance.now()-lastInput>9000&&scrollY<innerHeight*.5){idle=true;home.classList.add('idle');} },1000);
+/* works: objects rise into place as rows arrive */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('inview');}),{threshold:.35}); document.querySelectorAll('.wk').forEach(w=>io.observe(w));
+if(G&&window.ScrollTrigger&&!reduced){ document.querySelectorAll('.wk .im img:not(.ob)').forEach(im=>G.fromTo(im,{yPercent:-6},{yPercent:6,ease:'none',scrollTrigger:{trigger:im.closest('.wk'),start:'top bottom',end:'bottom top',scrub:true}})); G.from('.about .pic',{clipPath:'inset(0 0 100% 0)',duration:1.2,ease:'power3.inOut',scrollTrigger:{trigger:'.about',start:'top 70%'}}); }
+/* case pages */
+const pagesEl=[...document.querySelectorAll('.cp')]; let openPage=null;
+const openCase=k=>{ const p=document.getElementById('cp-'+k); if(!p) return; if(openPage&&openPage!==p){openPage.classList.remove('open');} openPage=p; p.scrollTop=0; p.classList.add('open'); document.body.style.overflow='hidden'; if(lenis) lenis.stop(); };
+const closeCase=()=>{ if(!openPage) return; openPage.classList.remove('open'); openPage=null; document.body.style.overflow=''; if(lenis) lenis.start(); };
+document.addEventListener('click',e=>{ const c=e.target.closest('[data-contact]'); if(c){e.preventDefault();closeCase();const t=document.getElementById('contact');lenis?lenis.scrollTo(t):t.scrollIntoView({behavior:'smooth'});return;} const o=e.target.closest('[data-case]'); if(o){e.preventDefault();openCase(o.dataset.case);return;} if(e.target.closest('[data-close]')) closeCase(); });
+addEventListener('keydown',e=>{ if(e.key==='Escape') closeCase(); });
+const toTop=document.getElementById('toTop'); addEventListener('scroll',()=>toTop.classList.toggle('on',scrollY>innerHeight*.8),{passive:true}); toTop.addEventListener('click',()=>{ lenis?lenis.scrollTo(0):scrollTo({top:0,behavior:'smooth'}); });
 })();
-</script>
-<script>
-(function(){ const imgs=Array.from(document.querySelectorAll('#reel img')); let i=0; imgs[0].classList.add('on');
-  setInterval(()=>{ imgs[i].classList.remove('on'); i=(i+1)%imgs.length; imgs[i].classList.add('on'); }, 4000); })();
-</script>
-<script>
-(function(){
-  const rail=document.getElementById('rail'); if(!rail) return;
-  const st=Array.from(rail.querySelectorAll('.station')), pins=st.map(e=>e.querySelector('.station__pin'));
-  const dot=rail.querySelector('.rail__dot'), fill=rail.querySelector('.rail__fill'), line=rail.querySelector('.rail__line');
-  const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const DWELL=1700, TRAVEL=900, RESET=2200;
-  let xs=[]; const measure=()=>{ const r=rail.getBoundingClientRect(); xs=pins.map(p=>{ const b=p.getBoundingClientRect(); return b.left+b.width/2-r.left; });
-    line.style.left=xs[0]+'px'; line.style.right=(r.width-xs[xs.length-1])+'px'; fill.style.left=xs[0]+'px'; };
-  const light=k=>st.forEach((e,i)=>{ e.classList.toggle('on',i===k); e.classList.toggle('done',i<k); });
-  const place=x=>{ dot.style.left=x+'px'; fill.style.width=Math.max(0,x-xs[0])+'px'; };
-  const ease=t=>t<.5?2*t*t:-1+(4-2*t)*t;
-  if(reduced||innerWidth<=860){ st.forEach(e=>e.classList.add('on')); return; }
-  measure(); addEventListener('resize',measure);
-  let k=0, phase='dwell', t0=performance.now(); light(0); place(xs[0]);
-  const tick=now=>{
-    const dt=now-t0;
-    if(phase==='dwell'){ if(dt>=DWELL){ if(k===xs.length-1){ phase='reset'; } else { phase='travel'; } t0=now; } }
-    else if(phase==='travel'){ const p=Math.min(1,dt/TRAVEL); place(xs[k]+(xs[k+1]-xs[k])*ease(p)); if(p>=1){ k++; light(k); phase='dwell'; t0=now; } }
-    else { if(dt>=RESET){ k=0; light(0); place(xs[0]); phase='dwell'; t0=now; } }
-    requestAnimationFrame(tick);
-  };
-  requestAnimationFrame(tick);
-})();
-</script>
-
-</body>
-</html>
+</script></body></html>
